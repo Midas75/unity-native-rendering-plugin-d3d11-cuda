@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:33:55</created>
+	<modified>2023-06-23T18:33:55</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image25t10gpc63804st" name="image25t10gpc63804st">
+      <init_from>images/windowedFacade_concrete_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image26t10gpc63804st" name="image26t10gpc63804st">
+      <init_from>images/windowedFacade_concrete_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image27t10gpc63804st" name="image27t10gpc63804st">
+      <init_from>images/windowedFacade_concrete_1_normal_1024.png</init_from>
+    </image>
+    <image id="image28t10gpc63804st" name="image28t10gpc63804st">
+      <init_from>images/facade_concrete_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image29t10gpc63804st" name="image29t10gpc63804st">
+      <init_from>images/facade_concrete_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image30t10gpc63804st" name="image30t10gpc63804st">
+      <init_from>images/facade_concrete_1_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63900st" name="image6t10gpc63900st">
+      <init_from>images/ortho10gpc63900.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63900st42_CassaHotel" id="geometryt10gpc63900st42_CassaHotel">
+      <mesh name="geometryt10gpc63900st42_CassaHotel-mesh" id="geometryt10gpc63900st42_CassaHotel-mesh">
+        <source id="mesht10gpc63900st42-positions" name="mesht10gpc63900st42-positions">
+          <float_array id="mesht10gpc63900st42-positions-array" count="195">56.99727 -110.8438 176.0373 56.99727 -110.8438 19.43366 59.75041 -112.3154 19.43366 59.75041 -112.3154 176.0373 61.35886 -113.1752 176.0373 61.35886 -113.1752 19.43366 64.112 -114.6468 19.43366 64.112 -114.6468 176.0373 65.72045 -115.5065 19.43366 68.47359 -116.9781 19.43366 68.47359 -116.9781 176.0373 65.72045 -115.5065 176.0373 70.08204 -117.8379 19.43366 72.83518 -119.3095 19.43366 72.83518 -119.3095 176.0373 70.08204 -117.8379 176.0373 64.20487 -96.68889 176.0373 64.20487 -96.68889 19.43366 58.29411 -107.6884 19.43366 58.29411 -107.6884 176.0373 66.33286 -92.75302 19.43366 64.84714 -95.49857 19.43366 64.84714 -95.49857 47.0373 66.33286 -92.75302 47.0373 67.5282 -97.82826 47.0373 64.77507 -96.35665 47.0373 64.77507 -96.35665 176.0373 67.5282 -97.82826 176.0373 71.89494 -100.1624 47.0373 69.1418 -98.69076 47.0373 69.1418 -98.69076 176.0373 71.89494 -100.1624 176.0373 76.26167 -102.4965 176.0373 76.26167 -102.4965 47.0373 73.50854 -101.0249 47.0373 73.50854 -101.0249 176.0373 80.62841 -104.8306 47.0373 77.9968 -103.4239 47.0373 80.62841 -104.8306 176.0373 77.87527 -103.359 176.0373 77.87527 -103.359 47.0373 81.78844 -100.2173 47.0373 81.78844 -100.2173 19.43366 68.06062 -92.78887 19.43366 68.06062 -92.78887 47.0373 73.30296 -119.1683 19.43366 74.78253 -116.4195 19.43366 74.78253 -116.4195 176.0373 73.30296 -119.1683 176.0373 75.2985 -115.4608 19.43366 76.77807 -112.712 19.43366 76.77807 -112.712 176.0373 75.2985 -115.4608 176.0373 77.29404 -111.7534 19.43366 78.77361 -109.0045 19.43366 78.77361 -109.0045 176.0373 77.29404 -111.7534 176.0373 79.28959 -108.0459 176.0373 79.28959 -108.0459 19.43366 80.76916 -105.297 19.43366 80.76916 -105.297 176.0373 81.28857 -104.3411 19.43366 82.78397 -101.6008 19.43366 82.78397 -101.6008 47.0373 81.28857 -104.3411 47.0373</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st42-positions-array" count="65" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st42-normals" name="mesht10gpc63900st42-normals">
+          <float_array id="mesht10gpc63900st42-normals-array" count="21">-0.4714037 -0.8819176 0 -0.8808736 0.4733515 0 -0.8794865 0.4759238 0 0.4714037 0.8819176 0 0.4759145 0.8794915 0 0.8805497 -0.4739538 0 0.8778002 -0.479027 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st42-normals-array" count="7" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st42-map0" name="mesht10gpc63900st42-map0">
+          <float_array id="mesht10gpc63900st42-map0-array" count="72">0 48 0 0 1 0 1 48 0 48 1 0 1 48 1 0 1 48 1 0 1 48 0 48 4 0 4 48 1 0 1 7 0 7 1 0 1 39 0 39 1 0 1 39 1 0 1 39 0.95586 0 1 39 1 0 5 0 5 7 1 0 1 48 1 0 1 0 1 48 1 0 1 7</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st42-map0-array" count="36" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st42-map1" name="mesht10gpc63900st42-map1">
+          <float_array id="mesht10gpc63900st42-map1-array" count="32">1.65354 1.02745 1.10236 1.46667 1.5748 1.59608 1.26772 1.58824 1.50394 1.42745 1.44882 1.63922 1.75591 1.94118 1.18898 1.0902 1.80315 1.36078 1.3622 1.2549 1.81102 1.73725 1.98425 1.00392 1.1811 1.15294 1.92913 1.02353 1.74803 1.90588 1.27559 1.48235</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st42-map1-array" count="16" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st42_CassaHotel-vertices" name="geometryt10gpc63900st42_CassaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st42-positions" />
+        </vertices>
+        <triangles material="material15" count="33">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st42_CassaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st42-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st42-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st42-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 0 0 0 0 2 0 2 0 3 0 3 0 4 0 4 1 5 0 1 1 6 0 5 1 4 0 4 1 6 0 5 1 7 0 6 1 8 0 1 2 9 0 7 2 10 0 8 2 11 0 0 2 8 0 1 2 10 0 8 2 12 0 1 3 13 0 9 3 14 0 10 3 15 0 0 3 12 0 1 3 14 0 10 3 16 1 11 4 17 1 1 4 18 1 12 4 16 1 11 4 18 1 12 4 19 1 13 4 20 2 1 5 21 2 14 5 22 2 15 5 23 2 16 5 20 2 1 5 22 2 15 5 24 3 1 6 25 3 17 6 26 3 18 6 27 3 19 6 24 3 1 6 26 3 18 6 28 3 1 7 29 3 20 7 30 3 21 7 31 3 19 7 28 3 1 7 30 3 21 7 32 3 19 8 33 3 1 8 34 3 22 8 32 3 19 8 34 3 22 8 35 3 23 8 36 3 1 9 37 3 24 9 38 3 19 9 39 3 25 9 37 3 24 9 40 3 26 9 38 3 19 9 37 3 24 9 39 3 25 9 41 4 16 10 42 4 1 10 43 4 27 10 41 4 16 10 43 4 27 10 44 4 28 10 45 5 1 11 46 5 29 11 47 5 30 11 48 5 0 11 45 5 1 11 47 5 30 11 49 5 1 12 50 5 29 12 51 5 30 12 52 5 0 12 49 5 1 12 51 5 30 12 53 5 1 13 54 5 31 13 55 5 3 13 56 5 0 13 53 5 1 13 55 5 3 13 57 5 0 14 58 5 1 14 59 5 32 14 57 5 0 14 59 5 32 14 60 5 33 14 61 6 1 15 62 6 34 15 63 6 35 15 64 6 16 15 61 6 1 15 63 6 35 15</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63900st43_CassaHotel" id="geometryt10gpc63900st43_CassaHotel">
+      <mesh name="geometryt10gpc63900st43_CassaHotel-mesh" id="geometryt10gpc63900st43_CassaHotel-mesh">
+        <source id="mesht10gpc63900st43-positions" name="mesht10gpc63900st43-positions">
+          <float_array id="mesht10gpc63900st43-positions-array" count="258">58.02818 -108.1833 19.0373 56.69301 -110.6812 19.0373 56.69301 -110.6812 176.0373 58.02818 -108.1833 176.0373 72.83518 -119.3095 19.43366 73.13944 -119.4721 176.0373 72.83518 -119.3095 176.0373 70.08204 -117.8379 19.43366 73.13944 -119.4721 19.0373 70.08204 -117.8379 176.0373 68.47359 -116.9781 176.0373 68.47359 -116.9781 19.43366 65.72045 -115.5065 19.43366 65.72045 -115.5065 176.0373 64.112 -114.6468 176.0373 64.112 -114.6468 19.43366 61.35886 -113.1752 19.43366 61.35886 -113.1752 176.0373 59.75041 -112.3154 176.0373 59.75041 -112.3154 19.43366 56.99727 -110.8438 19.43366 56.99727 -110.8438 176.0373 58.29411 -107.6884 176.0373 58.29411 -107.6884 19.43366 58.02818 -108.1833 176.0373 64.20487 -96.68889 19.43366 64.20487 -96.68889 176.0373 64.4708 -96.19401 47.0373 64.4708 -96.19401 19.0373 64.4708 -96.19401 176.0373 64.84714 -95.49857 19.43366 64.4708 -96.19401 47.0373 64.84714 -95.49857 47.0373 66.70919 -92.05757 19.0373 66.33286 -92.75302 19.43366 66.33286 -92.75302 47.0373 66.70919 -92.05757 47.0373 64.77507 -96.35665 176.0373 64.77507 -96.35665 47.0373 64.4708 -96.19401 47.0373 64.4708 -96.19401 176.0373 69.1418 -98.69076 176.0373 69.1418 -98.69076 47.0373 67.5282 -97.82826 47.0373 67.5282 -97.82826 176.0373 73.50854 -101.0249 176.0373 73.50854 -101.0249 47.0373 71.89494 -100.1624 47.0373 71.89494 -100.1624 176.0373 77.87527 -103.359 176.0373 77.87527 -103.359 47.0373 76.26167 -102.4965 47.0373 76.26167 -102.4965 176.0373 80.93267 -104.9932 176.0373 80.93267 -104.9932 47.0373 80.62841 -104.8306 47.0373 80.62841 -104.8306 176.0373 68.06062 -92.78887 19.43366 68.06062 -92.78887 47.0373 83.13987 -100.9486 19.0373 81.78844 -100.2173 19.43366 81.78844 -100.2173 47.0373 83.13987 -100.9486 47.0373 80.76916 -105.297 176.0373 80.76916 -105.297 19.43366 80.93267 -104.9932 47.0373 80.93267 -104.9932 176.0373 79.28959 -108.0459 19.43366 80.93267 -104.9932 19.0373 79.28959 -108.0459 176.0373 78.77361 -109.0045 176.0373 78.77361 -109.0045 19.43366 77.29404 -111.7534 19.43366 77.29404 -111.7534 176.0373 76.77807 -112.712 176.0373 76.77807 -112.712 19.43366 75.2985 -115.4608 19.43366 75.2985 -115.4608 176.0373 74.78253 -116.4195 176.0373 74.78253 -116.4195 19.43366 73.30296 -119.1683 19.43366 73.30296 -119.1683 176.0373 82.78397 -101.6008 19.43366 82.78397 -101.6008 47.0373 81.28857 -104.3411 19.43366 81.28857 -104.3411 47.0373</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st43-positions-array" count="86" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st43-normals" name="mesht10gpc63900st43-normals">
+          <float_array id="mesht10gpc63900st43-normals-array" count="24">-0.8819176 0.4714037 0 -0.4714037 -0.8819176 0 -0.8808736 0.4733515 0 -0.8794865 0.4759238 0 0.4714037 0.8819176 0 0.4759145 0.8794915 0 0.8805497 -0.4739538 0 0.8778002 -0.479027 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st43-normals-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st43-map0" name="mesht10gpc63900st43-map0">
+          <float_array id="mesht10gpc63900st43-map0-array" count="176">0 0 0.94411 0 0.94411 52.33333 0 52.33333 1 0 1.11051 48 1 48 1.11051 -0.12149 0 48 -0.58423 48 -0.58423 0 -1.58423 0 -1.58423 48 -2.16845 48 -2.16845 0 -3.16845 0 -4.86319 -0.12149 -3.16845 48 -3.75268 48 -3.75268 0 -4.75268 0 -4.75268 48 -4.86319 48 4 48 4 0 4.17996 48 4.17996 -0.12149 0 48 -0.17996 8.46069 -0.17996 -0.12149 -0.17996 48 1 0 1.2533 7 1 7 -0.2533 -0.10051 1.2533 -0.10051 0 7 -0.2533 7 1 39 1 0 1.11051 0 1.11051 39 -0.5861 39 -0.5861 0 0 39 -2.17219 39 -2.17219 0 -1.5861 0 -1.5861 39 -3.75829 39 -3.75829 0 -3.17219 0 -3.17219 39 -4.8688 39 -4.8688 0 -4.75829 0 -4.75829 39 5 0 5.49222 7 5 7 -0.49222 -0.10051 5.49222 -0.10051 -0.49222 7 1 48 1 0 1.11051 8.46069 1.11051 48 1.11051 -0.12149 -0.34873 48 -0.34873 0 -1.34873 0 -1.34873 48 -1.69746 48 -1.69746 0 -4.15671 -0.12149 -2.69746 0 -2.69746 48 -3.04619 48 -3.04619 0 -4.04619 0 -4.04619 48 -4.15671 48 1 0 1.23799 7 1 7 1.23799 -0.10051 -0.23799 7 -0.23799 -0.10051</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st43-map0-array" count="88" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st43_CassaHotel-vertices" name="geometryt10gpc63900st43_CassaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st43-positions" />
+        </vertices>
+        <triangles material="material16" count="74">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st43_CassaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st43-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st43-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 0 0 0 2 0 2 3 0 3 4 1 4 5 1 5 6 1 6 7 1 0 8 1 7 4 1 4 5 1 5 4 1 4 8 1 7 9 1 8 10 1 9 7 1 0 10 1 9 11 1 10 7 1 0 11 1 10 8 1 7 7 1 0 11 1 10 12 1 11 8 1 7 13 1 12 14 1 13 12 1 11 14 1 13 15 1 14 12 1 11 12 1 11 15 1 14 8 1 7 16 1 15 1 1 16 15 1 14 15 1 14 1 1 16 8 1 7 17 1 17 18 1 18 16 1 15 18 1 18 19 1 19 16 1 15 19 1 19 1 1 16 16 1 15 20 1 20 1 1 16 19 1 19 21 1 21 2 1 22 20 1 20 2 1 22 1 1 16 20 1 20 22 2 23 23 2 24 24 2 25 25 2 0 0 2 26 23 2 24 24 2 25 23 2 24 0 2 26 25 2 0 26 2 27 27 2 28 27 2 28 28 2 29 25 2 0 28 2 29 0 2 26 25 2 0 26 2 27 29 2 30 27 2 28 30 3 31 31 3 32 32 3 33 33 3 34 30 3 31 34 3 0 33 3 34 28 3 35 30 3 31 31 3 32 30 3 31 28 3 35 35 3 36 36 3 37 34 3 0 36 3 37 33 3 34 34 3 0 37 4 38 38 4 39 39 4 40 37 4 38 39 4 40 40 4 41 41 4 42 42 4 43 43 4 0 41 4 42 43 4 0 44 4 44 45 4 45 46 4 46 47 4 47 45 4 45 47 4 47 48 4 48 49 4 49 50 4 50 51 4 51 49 4 49 51 4 51 52 4 52 53 4 53 54 4 54 55 4 55 53 4 53 55 4 55 56 4 56 57 5 57 36 5 58 58 5 59 59 5 60 57 5 57 60 5 0 59 5 60 33 5 61 57 5 57 36 5 58 57 5 57 33 5 61 61 5 36 62 5 62 60 5 0 62 5 62 59 5 60 60 5 0 63 6 63 64 6 64 65 6 65 65 6 65 66 6 66 63 6 63 67 6 0 68 6 67 64 6 64 65 6 65 64 6 64 68 6 67 67 6 0 69 6 8 70 6 68 67 6 0 70 6 68 71 6 69 71 6 69 68 6 67 67 6 0 71 6 69 72 6 70 68 6 67 72 6 70 73 6 71 74 6 72 72 6 70 74 6 72 75 6 73 75 6 73 8 6 74 72 6 70 72 6 70 8 6 74 68 6 67 76 6 75 8 6 74 75 6 73 76 6 75 77 6 76 78 6 77 76 6 75 78 6 77 79 6 78 79 6 78 8 6 74 76 6 75 80 6 79 8 6 74 79 6 78 80 6 79 81 6 80 5 6 81 80 6 79 5 6 81 8 6 74 82 7 82 62 7 83 83 7 84 84 7 0 59 7 85 82 7 82 62 7 83 82 7 82 59 7 85 85 7 36 65 7 86 84 7 0 65 7 86 68 7 87 84 7 0 68 7 87 59 7 85 84 7 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63900st44_CassaHotel" id="geometryt10gpc63900st44_CassaHotel">
+      <mesh name="geometryt10gpc63900st44_CassaHotel-mesh" id="geometryt10gpc63900st44_CassaHotel-mesh">
+        <source id="mesht10gpc63900st44-positions" name="mesht10gpc63900st44-positions">
+          <float_array id="mesht10gpc63900st44-positions-array" count="51">56.69301 -110.6812 19.0373 58.02818 -108.1833 19.0373 73.13944 -119.4721 19.0373 64.4708 -96.19401 19.0373 80.93267 -104.9932 19.0373 66.70919 -92.05757 19.0373 83.13987 -100.9486 19.0373 58.02818 -108.1833 176.0373 56.69301 -110.6812 176.0373 73.13944 -119.4721 176.0373 64.4708 -96.19401 176.0373 80.93267 -104.9932 176.0373 66.70919 -92.05757 47.0373 64.4708 -96.19401 47.0373 77.9968 -103.4239 47.0373 80.93267 -104.9932 47.0373 83.13987 -100.9486 47.0373</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st44-positions-array" count="17" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st44-normals" name="mesht10gpc63900st44-normals">
+          <float_array id="mesht10gpc63900st44-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st44-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st44-map0" name="mesht10gpc63900st44-map0">
+          <float_array id="mesht10gpc63900st44-map0-array" count="16">0.1833699 0.11168 0.1784 0.11443 0.19413 0.14462 0.15453 0.1277 0.16531 0.16067 0.1463 0.1323 0.15725 0.16521 0.16339 0.15479</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st44-map0-array" count="8" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st44_CassaHotel-vertices" name="geometryt10gpc63900st44_CassaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st44-positions" />
+        </vertices>
+        <triangles material="material2" count="11">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st44_CassaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st44-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st44-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 1 0 1 3 0 3 4 0 4 2 0 2 1 0 1 4 0 4 3 0 3 5 0 5 4 0 4 5 0 5 6 0 6 4 0 4 7 1 1 8 1 0 9 1 2 10 1 3 7 1 1 11 1 4 11 1 4 7 1 1 9 1 2 12 1 5 13 1 3 14 1 7 12 1 5 14 1 7 15 1 4 12 1 5 15 1 4 16 1 6</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect9t10gpc63804st" name="effect9t10gpc63804st">
+      <profile_COMMON>
+        <newparam sid="effect9-image25-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image25t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect9-image25t10gpc63804st">
+          <sampler2D>
+            <source>effect9-image25-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect9-image26-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image26t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect9-image26t10gpc63804st">
+          <sampler2D>
+            <source>effect9-image26-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect9-image27-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image27t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect9-image27t10gpc63804st">
+          <sampler2D>
+            <source>effect9-image27-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect9-image25t10gpc63804st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect9-image26t10gpc63804st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect9-image27t10gpc63804st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  <effect id="effect10t10gpc63804st" name="effect10t10gpc63804st">
+      <profile_COMMON>
+        <newparam sid="effect10-image28-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image28t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect10-image28t10gpc63804st">
+          <sampler2D>
+            <source>effect10-image28-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect10-image29-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image29t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect10-image29t10gpc63804st">
+          <sampler2D>
+            <source>effect10-image29-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect10-image30-surfacet10gpc63804st">
+          <surface type="2D">
+            <init_from>image30t10gpc63804st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect10-image30t10gpc63804st">
+          <sampler2D>
+            <source>effect10-image30-surfacet10gpc63804st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect10-image28t10gpc63804st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect10-image29t10gpc63804st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect10-image30t10gpc63804st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63900st" name="effect2t10gpc63900st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc63900st">
+          <surface type="2D">
+            <init_from>image6t10gpc63900st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63900st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63900st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc63900st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material9t10gpc63804st" name="material9t10gpc63804st">
+      <instance_effect url="#effect9t10gpc63804st" />
+    </material>
+  <material id="material10t10gpc63804st" name="material10t10gpc63804st">
+      <instance_effect url="#effect10t10gpc63804st" />
+    </material>
+    <material id="material2t10gpc63900st" name="material2t10gpc63900st">
+      <instance_effect url="#effect2t10gpc63900st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinode-bE0KOkq" name="geopipeinode-bE0KOkq">
+        <translate>258.116740 -869.428490 0.000000</translate><instance_geometry url="#geometryt10gpc63900st42_CassaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material15" target="#material9t10gpc63804st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63900st43_CassaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material16" target="#material10t10gpc63804st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63900st44_CassaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63900st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="addr:city">New York</param><param type="string" name="addr:housenumber">70</param><param type="string" name="wikipedia">en:Cassa Hotel &amp;amp; Residences</param><param type="string" name="roof:shape">flat</param><param type="string" name="geopipe:identifier">bdgs5oRrHEvqE3EH6c0QLw==</param><param type="string" name="addr:postcode">10036</param><param type="string" name="name">Cassa Hotel</param><param type="string" name="nycdoitt:bin">1034238</param><param type="string" name="type">building</param><param type="string" name="geopipe:window_props" /><param type="string" name="addr:street">West 45th Street</param><param type="string" name="start_date">2010</param><param type="string" name="roof:height">0.000000</param><param type="string" name="building">hotel</param><param type="string" name="min_elevation">19.037298</param><param type="string" name="geopipe:window_type">DoubleHung</param><param type="string" name="geopipe:floor_thickness">0.336337</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:material">concrete</param><param type="string" name="website">http://www.cassahotelny.com</param><param type="string" name="level_height">3.000000</param><param type="string" name="height">6.000000</param><param type="string" name="roof:material">metal</param><param type="string" name="ground_elevation">19.433659</param><param type="string" name="building:color">0xffffffff</param><param type="string" name="min_height">0.000000</param><param type="string" name="wikidata">Q5049203</param><param type="string" name="tourism">hotel</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

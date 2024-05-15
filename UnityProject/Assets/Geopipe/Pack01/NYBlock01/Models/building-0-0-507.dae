@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:33:59</created>
+	<modified>2023-06-23T18:33:59</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image13t10gpc62ci6st" name="image13t10gpc62ci6st">
+      <init_from>images/windowedFacade_marble_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image14t10gpc62ci6st" name="image14t10gpc62ci6st">
+      <init_from>images/windowedFacade_marble_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image15t10gpc62ci6st" name="image15t10gpc62ci6st">
+      <init_from>images/windowedFacade_marble_1_normal_1024.png</init_from>
+    </image>
+    <image id="image16t10gpc62ci6st" name="image16t10gpc62ci6st">
+      <init_from>images/facade_marble_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image17t10gpc62ci6st" name="image17t10gpc62ci6st">
+      <init_from>images/facade_marble_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image18t10gpc62ci6st" name="image18t10gpc62ci6st">
+      <init_from>images/facade_marble_1_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63900st" name="image6t10gpc63900st">
+      <init_from>images/ortho10gpc63900.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63900st83_CambriaHotel" id="geometryt10gpc63900st83_CambriaHotel">
+      <mesh name="geometryt10gpc63900st83_CambriaHotel-mesh" id="geometryt10gpc63900st83_CambriaHotel-mesh">
+        <source id="mesht10gpc63900st83-positions" name="mesht10gpc63900st83-positions">
+          <float_array id="mesht10gpc63900st83-positions-array" count="48">196.0109 -79.39343 88.20153 196.0109 -79.39343 19.19937 189.0517 -92.348 19.19937 189.0517 -92.348 88.20153 188.5208 -94.10473 88.20153 188.5208 -94.10473 19.19937 204.0957 -102.4007 19.19937 204.0957 -102.4007 88.20153 212.7531 -86.2716 19.19937 197.1781 -77.97559 19.19937 197.1781 -77.97559 88.20153 212.7531 -86.2716 88.20153 205.2674 -100.9853 19.19937 212.2176 -88.02591 19.19937 212.2176 -88.02591 88.20153 205.2674 -100.9853 88.20153</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st83-positions-array" count="16" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st83-normals" name="mesht10gpc63900st83-normals">
+          <float_array id="mesht10gpc63900st83-normals-array" count="12">-0.8809332 0.4732407 0 -0.4701192 -0.8826029 0 0.4701192 0.8826029 0 0.881263 -0.4726262 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st83-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st83-map0" name="mesht10gpc63900st83-map0">
+          <float_array id="mesht10gpc63900st83-map0-array" count="20">0 21 0 0 5 0 5 21 6 0 6 21 6 0 6 21 5 0 5 21</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st83-map0-array" count="10" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st83-map1" name="mesht10gpc63900st83-map1">
+          <float_array id="mesht10gpc63900st83-map1-array" count="8">1.87402 1.95294 1.18898 1.50588 1.44094 1.23137 1.06299 1.04706</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st83-map1-array" count="4" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st83_CambriaHotel-vertices" name="geometryt10gpc63900st83_CambriaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st83-positions" />
+        </vertices>
+        <triangles material="material0" count="8">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st83_CambriaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st83-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st83-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st83-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 0 0 0 0 2 0 2 0 3 0 3 0 4 1 0 1 5 1 1 1 6 1 4 1 4 1 0 1 6 1 4 1 7 1 5 1 8 2 1 2 9 2 6 2 10 2 7 2 11 2 0 2 8 2 1 2 10 2 7 2 12 3 1 3 13 3 8 3 14 3 9 3 15 3 0 3 12 3 1 3 14 3 9 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63900st84_CambriaHotel" id="geometryt10gpc63900st84_CambriaHotel">
+      <mesh name="geometryt10gpc63900st84_CambriaHotel-mesh" id="geometryt10gpc63900st84_CambriaHotel-mesh">
+        <source id="mesht10gpc63900st84-positions" name="mesht10gpc63900st84-positions">
+          <float_array id="mesht10gpc63900st84-positions-array" count="78">189.0517 -92.348 19.19937 188.1998 -93.93378 88.20153 189.0517 -92.348 88.20153 196.8628 -77.80764 18.20153 196.0109 -79.39343 19.19937 188.1998 -93.93378 18.20153 196.0109 -79.39343 88.20153 196.8628 -77.80764 88.20153 204.0957 -102.4007 19.19937 204.4166 -102.5717 88.20153 204.0957 -102.4007 88.20153 188.5208 -94.10473 19.19937 204.4166 -102.5717 18.20153 188.5208 -94.10473 88.20153 197.1781 -77.97559 19.19937 196.8628 -77.80764 88.20153 197.1781 -77.97559 88.20153 212.7531 -86.2716 19.19937 196.8628 -77.80764 18.20153 212.7531 -86.2716 88.20153 213.0684 -86.43955 88.20153 213.0684 -86.43955 18.20153 212.2176 -88.02591 19.19937 212.2176 -88.02591 88.20153 205.2674 -100.9853 19.19937 205.2674 -100.9853 88.20153</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st84-positions-array" count="26" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st84-normals" name="mesht10gpc63900st84-normals">
+          <float_array id="mesht10gpc63900st84-normals-array" count="12">-0.8809332 0.4732407 0 -0.4701192 -0.8826029 0 0.4701192 0.8826029 0 0.881263 -0.4726262 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st84-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st84-map0" name="mesht10gpc63900st84-map0">
+          <float_array id="mesht10gpc63900st84-map0-array" count="52">5 0 5.61206 21 5 21 -0.61206 -0.30368 0 0 5.61206 -0.30368 0 21 -0.61206 21 6 0 6.12364 21 6 21 6.12364 -0.30368 -0.12364 21 -0.12364 -0.30368 6 0 6.12147 21 6 21 6.12147 -0.30368 -0.12147 21 -0.12147 -0.30368 5 0 5.61205 21 5 21 -0.61205 -0.30368 5.61205 -0.30368 -0.61205 21</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st84-map0-array" count="26" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st84_CambriaHotel-vertices" name="geometryt10gpc63900st84_CambriaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st84-positions" />
+        </vertices>
+        <triangles material="material1" count="24">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st84_CambriaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st84-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st84-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 0 0 0 4 0 4 3 0 3 5 0 5 0 0 0 1 0 1 0 0 0 5 0 5 6 0 6 7 0 7 4 0 4 7 0 7 3 0 3 4 0 4 8 1 8 9 1 9 10 1 10 11 1 4 12 1 11 8 1 8 9 1 9 8 1 8 12 1 11 13 1 6 1 1 12 11 1 4 1 1 12 5 1 13 11 1 4 5 1 13 12 1 11 11 1 4 14 2 14 15 2 15 16 2 16 17 2 4 18 2 17 14 2 14 15 2 15 14 2 14 18 2 17 19 2 6 20 2 18 17 2 4 20 2 18 21 2 19 17 2 4 21 2 19 18 2 17 17 2 4 22 3 20 20 3 21 23 3 22 12 3 23 22 3 20 24 3 4 12 3 23 21 3 24 22 3 20 20 3 21 22 3 20 21 3 24 25 3 6 9 3 25 24 3 4 9 3 25 12 3 23 24 3 4</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63900st85_CambriaHotel" id="geometryt10gpc63900st85_CambriaHotel">
+      <mesh name="geometryt10gpc63900st85_CambriaHotel-mesh" id="geometryt10gpc63900st85_CambriaHotel-mesh">
+        <source id="mesht10gpc63900st85-positions" name="mesht10gpc63900st85-positions">
+          <float_array id="mesht10gpc63900st85-positions-array" count="24">196.8628 -77.80764 18.20153 213.0684 -86.43955 18.20153 204.4166 -102.5717 18.20153 188.1998 -93.93378 18.20153 196.8628 -77.80764 88.20153 188.1998 -93.93378 88.20153 204.4166 -102.5717 88.20153 213.0684 -86.43955 88.20153</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st85-positions-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st85-normals" name="mesht10gpc63900st85-normals">
+          <float_array id="mesht10gpc63900st85-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st85-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63900st85-map0" name="mesht10gpc63900st85-map0">
+          <float_array id="mesht10gpc63900st85-map0-array" count="8">0.07898998 0.39496 0.08954 0.42742 0.12165 0.40961 0.11109 0.37713</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63900st85-map0-array" count="4" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63900st85_CambriaHotel-vertices" name="geometryt10gpc63900st85_CambriaHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63900st85-positions" />
+        </vertices>
+        <triangles material="material2" count="4">
+          <input semantic="VERTEX" source="#geometryt10gpc63900st85_CambriaHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63900st85-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63900st85-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 0 0 0 2 0 2 4 1 0 5 1 3 6 1 2 4 1 0 6 1 2 7 1 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect5t10gpc62ci6st" name="effect5t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect5-image13-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image13t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image13t10gpc62ci6st">
+          <sampler2D>
+            <source>effect5-image13-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect5-image14-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image14t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image14t10gpc62ci6st">
+          <sampler2D>
+            <source>effect5-image14-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect5-image15-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image15t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image15t10gpc62ci6st">
+          <sampler2D>
+            <source>effect5-image15-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect5-image13t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect5-image14t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect5-image15t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect6t10gpc62ci6st" name="effect6t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect6-image16-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image16t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image16t10gpc62ci6st">
+          <sampler2D>
+            <source>effect6-image16-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect6-image17-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image17t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image17t10gpc62ci6st">
+          <sampler2D>
+            <source>effect6-image17-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect6-image18-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image18t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image18t10gpc62ci6st">
+          <sampler2D>
+            <source>effect6-image18-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect6-image16t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect6-image17t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect6-image18t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63900st" name="effect2t10gpc63900st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc63900st">
+          <surface type="2D">
+            <init_from>image6t10gpc63900st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63900st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63900st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc63900st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material5t10gpc62ci6st" name="material5t10gpc62ci6st">
+      <instance_effect url="#effect5t10gpc62ci6st" />
+    </material>
+    <material id="material6t10gpc62ci6st" name="material6t10gpc62ci6st">
+      <instance_effect url="#effect6t10gpc62ci6st" />
+    </material>
+    <material id="material2t10gpc63900st" name="material2t10gpc63900st">
+      <instance_effect url="#effect2t10gpc63900st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinoderO2agTzL" name="geopipeinoderO2agTzL">
+        <translate>258.116740 -869.428490 0.000000</translate><instance_geometry url="#geometryt10gpc63900st83_CambriaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material0" target="#material5t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63900st84_CambriaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material1" target="#material6t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63900st85_CambriaHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63900st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="geopipe:identifier">wH5r+Njo0qEcvSPV3eh+QA==</param><param type="string" name="geopipe:window_type">Picture</param><param type="string" name="website">http://www.cambriatimessquare.com/</param><param type="string" name="ground_elevation">19.199373</param><param type="string" name="addr:city">New York</param><param type="string" name="min_elevation">18.201534</param><param type="string" name="addr:state">NY</param><param type="string" name="building">yes</param><param type="string" name="addr:housenumber">30</param><param type="string" name="brand:wikipedia">en:Choice Hotels International</param><param type="string" name="brand:wikidata">Q1075788</param><param type="string" name="tourism">hotel</param><param type="string" name="official_name">Cambria Hotel &amp;amp; Suite Times Square</param><param type="string" name="height">70.000000</param><param type="string" name="geopipe:window_props" /><param type="string" name="addr:street">West 46th Street</param><param type="string" name="smoking">outside</param><param type="string" name="type">building</param><param type="string" name="roof:height">0.000000</param><param type="string" name="start_date">2015</param><param type="string" name="addr:postcode">10036</param><param type="string" name="building:material">marble</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:color">0xd8e1daff</param><param type="string" name="roof:material">metal</param><param type="string" name="name">Cambria Hotel</param><param type="string" name="min_height">0.000000</param><param type="string" name="brand">Cambria Hotel</param><param type="string" name="level_height">3.333333</param><param type="string" name="roof:shape">flat</param><param type="string" name="geopipe:floor_thickness">0.343516</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

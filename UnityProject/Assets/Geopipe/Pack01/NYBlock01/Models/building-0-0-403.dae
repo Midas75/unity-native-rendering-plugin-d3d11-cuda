@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:33:27</created>
+	<modified>2023-06-23T18:33:27</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image7t10gpc62ci6st" name="image7t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image8t10gpc62ci6st" name="image8t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image9t10gpc62ci6st" name="image9t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_normal_1024.png</init_from>
+    </image>
+    <image id="image10t10gpc62ci6st" name="image10t10gpc62ci6st">
+      <init_from>images/facade_brick_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image11t10gpc62ci6st" name="image11t10gpc62ci6st">
+      <init_from>images/facade_brick_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image12t10gpc62ci6st" name="image12t10gpc62ci6st">
+      <init_from>images/facade_brick_2_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63846st" name="image6t10gpc63846st">
+      <init_from>images/ortho10gpc63846.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63846st63_ChurchofSweden" id="geometryt10gpc63846st63_ChurchofSweden">
+      <mesh name="geometryt10gpc63846st63_ChurchofSweden-mesh" id="geometryt10gpc63846st63_ChurchofSweden-mesh">
+        <source id="mesht10gpc63846st63-positions" name="mesht10gpc63846st63-positions">
+          <float_array id="mesht10gpc63846st63-positions-array" count="96">220.1702 -242.42 20.75 218.7421 -245.0704 20.75 218.7421 -245.0704 42.30376 220.1702 -242.42 42.30376 228.1594 -227.592 20.75 221.0193 -240.844 20.75 221.0193 -240.844 42.30376 228.1594 -227.592 42.30376 230.4366 -223.3656 42.30376 230.4366 -223.3656 20.75 229.0086 -226.016 20.75 229.0086 -226.016 42.30376 219.9565 -246.1166 42.30376 219.9565 -246.1166 20.75 225.2573 -248.9727 20.75 225.2573 -248.9727 42.30376 226.799 -249.4114 20.75 228.227 -246.761 20.75 228.227 -246.761 42.30376 226.799 -249.4114 42.30376 229.0762 -245.185 42.30376 229.0762 -245.185 20.75 236.2163 -231.9331 20.75 236.2163 -231.9331 42.30376 237.0655 -230.357 20.75 238.4935 -227.7066 20.75 238.4935 -227.7066 42.30376 237.0655 -230.357 42.30376 237.2791 -226.6604 20.75 231.9783 -223.8044 20.75 231.9783 -223.8044 42.30376 237.2791 -226.6604 42.30376</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st63-positions-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st63-normals" name="mesht10gpc63846st63-normals">
+          <float_array id="mesht10gpc63846st63-normals-array" count="12">-0.880348 0.4743285 0 -0.4743285 -0.880348 0 0.880348 -0.4743285 0 0.4743285 0.880348 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st63-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st63-map0" name="mesht10gpc63846st63-map0">
+          <float_array id="mesht10gpc63846st63-map0-array" count="38">0 0 1 0 1 5 0 5 5 0 5 5 1 0 1 5 0 5 2 0 2 5 1 0 1 5 5 0 5 5 1 0 1 5 2 0 2 5</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st63-map0-array" count="19" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st63-map1" name="mesht10gpc63846st63-map1">
+          <float_array id="mesht10gpc63846st63-map1-array" count="16">1.1811 1.15294 1.98425 1.00392 1.81102 1.73725 1.92913 1.02353 1.74803 1.90588 1.27559 1.48235 1.68504 1.02745 1.9685 1.72941</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st63-map1-array" count="8" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63846st63_ChurchofSweden-vertices" name="geometryt10gpc63846st63_ChurchofSweden-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63846st63-positions" />
+        </vertices>
+        <triangles material="material13" count="16">
+          <input semantic="VERTEX" source="#geometryt10gpc63846st63_ChurchofSweden-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63846st63-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63846st63-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63846st63-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 3 0 3 0 0 0 0 0 2 0 2 0 4 0 0 1 5 0 4 1 6 0 5 1 7 0 3 1 4 0 0 1 6 0 5 1 8 0 3 2 9 0 0 2 10 0 6 2 8 0 3 2 10 0 6 2 11 0 7 2 12 1 8 3 13 1 0 3 14 1 9 3 12 1 8 3 14 1 9 3 15 1 10 3 16 2 0 4 17 2 11 4 18 2 12 4 19 2 3 4 16 2 0 4 18 2 12 4 20 2 3 5 21 2 0 5 22 2 13 5 20 2 3 5 22 2 13 5 23 2 14 5 24 2 0 6 25 2 15 6 26 2 16 6 27 2 3 6 24 2 0 6 26 2 16 6 28 3 0 7 29 3 17 7 30 3 18 7 31 3 3 7 28 3 0 7 30 3 18 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63846st64_ChurchofSweden" id="geometryt10gpc63846st64_ChurchofSweden">
+      <mesh name="geometryt10gpc63846st64_ChurchofSweden-mesh" id="geometryt10gpc63846st64_ChurchofSweden-mesh">
+        <source id="mesht10gpc63846st64-positions" name="mesht10gpc63846st64-positions">
+          <float_array id="mesht10gpc63846st64-positions-array" count="144">218.7421 -245.0704 20.75 218.5785 -245.3741 42.30376 218.7421 -245.0704 42.30376 220.1702 -242.42 20.75 218.5785 -245.3741 20.00376 220.1702 -242.42 42.30376 221.0193 -240.844 42.30376 221.0193 -240.844 20.75 228.1594 -227.592 20.75 228.2887 -227.3521 20.00376 228.1594 -227.592 42.30376 228.2887 -227.3521 42.30376 229.0086 -226.016 20.75 229.0086 -226.016 42.30376 230.4366 -223.3656 20.75 230.6003 -223.0619 20.00376 230.4366 -223.3656 42.30376 230.6003 -223.0619 42.30376 225.2573 -248.9727 20.75 226.6354 -249.7152 42.30376 225.2573 -248.9727 42.30376 218.5785 -245.3741 20.00376 219.9565 -246.1166 20.75 226.6354 -249.7152 20.00376 219.9565 -246.1166 42.30376 218.5785 -245.3741 42.30376 238.4935 -227.7066 20.75 238.6571 -227.4029 42.30376 238.4935 -227.7066 42.30376 237.0655 -230.357 20.75 238.2488 -228.1607 20.00376 238.6571 -227.4029 20.00376 237.0655 -230.357 42.30376 236.2163 -231.9331 42.30376 236.2163 -231.9331 20.75 235.149 -233.9139 20.00376 229.0762 -245.185 20.75 229.0762 -245.185 42.30376 228.227 -246.761 42.30376 228.227 -246.761 20.75 226.6354 -249.7152 20.00376 226.799 -249.4114 20.75 226.799 -249.4114 42.30376 226.6354 -249.7152 42.30376 231.9783 -223.8044 20.75 231.9783 -223.8044 42.30376 237.2791 -226.6604 20.75 237.2791 -226.6604 42.30376</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st64-positions-array" count="48" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st64-normals" name="mesht10gpc63846st64-normals">
+          <float_array id="mesht10gpc63846st64-normals-array" count="12">-0.880348 0.4743285 0 -0.4743285 -0.880348 0 0.880348 -0.4743285 0 0.4743285 0.880348 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st64-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st64-map0" name="mesht10gpc63846st64-map0">
+          <float_array id="mesht10gpc63846st64-map0-array" count="94">1 0 1.11459 5 1 5 0 0 1.11459 -0.17311 0 5 -0.59465 5 -0.59465 0 -5.59465 0 -5.68518 -0.17311 -5.59465 5 -5.68518 5 -6.1893 0 -6.1893 5 -7.1893 0 -7.3039 -0.17311 -7.1893 5 -7.3039 5 2 0 2.51994 5 2 5 -0.51994 -0.17311 2.51994 -0.17311 0 5 -0.51994 5 1 0 1.11459 5 1 5 0.82868 -0.17311 1.11459 -0.17311 -0.59465 5 -0.59465 0 -1.34204 -0.17311 -5.59465 0 -5.59465 5 -6.1893 5 -6.1893 0 -7.3039 -0.17311 -7.1893 0 -7.1893 5 -7.3039 5 2 0 2.51994 5 2 5 2.51994 -0.17311 -0.51994 5 -0.51994 -0.17311</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st64-map0-array" count="47" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63846st64_ChurchofSweden-vertices" name="geometryt10gpc63846st64_ChurchofSweden-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63846st64-positions" />
+        </vertices>
+        <triangles material="material14" count="44">
+          <input semantic="VERTEX" source="#geometryt10gpc63846st64_ChurchofSweden-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63846st64-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63846st64-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 0 4 0 0 0 1 0 1 0 0 0 4 0 4 5 0 5 6 0 6 3 0 3 6 0 6 7 0 7 3 0 3 3 0 3 7 0 7 4 0 4 7 0 7 8 0 8 9 0 9 7 0 7 9 0 9 4 0 4 10 0 10 11 0 11 8 0 8 11 0 11 12 0 12 8 0 8 8 0 8 12 0 12 9 0 9 11 0 11 13 0 13 12 0 12 14 0 14 15 0 15 12 0 12 12 0 12 15 0 15 9 0 9 16 0 16 17 0 17 14 0 14 17 0 17 15 0 15 14 0 14 18 1 18 19 1 19 20 1 20 21 1 21 18 1 18 22 1 3 21 1 21 23 1 22 18 1 18 19 1 19 18 1 18 23 1 22 24 1 23 25 1 24 22 1 3 25 1 24 21 1 21 22 1 3 26 2 25 27 2 26 28 2 27 29 2 3 30 2 28 26 2 25 30 2 28 31 2 29 26 2 25 27 2 26 26 2 25 31 2 29 32 2 5 33 2 30 29 2 3 33 2 30 34 2 31 29 2 3 34 2 31 35 2 32 29 2 3 29 2 3 35 2 32 30 2 28 34 2 31 36 2 33 35 2 32 37 2 34 38 2 35 36 2 33 38 2 35 39 2 36 36 2 33 39 2 36 40 2 37 36 2 33 36 2 33 40 2 37 35 2 32 41 2 38 40 2 37 39 2 36 42 2 39 43 2 40 41 2 38 43 2 40 40 2 37 41 2 38 44 3 41 17 3 42 45 3 43 46 3 3 15 3 44 44 3 41 17 3 42 44 3 41 15 3 44 47 3 5 27 3 45 46 3 3 27 3 45 31 3 46 46 3 3 31 3 46 15 3 44 46 3 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63846st65_ChurchofSweden" id="geometryt10gpc63846st65_ChurchofSweden">
+      <mesh name="geometryt10gpc63846st65_ChurchofSweden-mesh" id="geometryt10gpc63846st65_ChurchofSweden-mesh">
+        <source id="mesht10gpc63846st65-positions" name="mesht10gpc63846st65-positions">
+          <float_array id="mesht10gpc63846st65-positions-array" count="42">230.6003 -223.0619 20.00376 238.6571 -227.4029 20.00376 238.2488 -228.1607 20.00376 228.2887 -227.3521 20.00376 235.149 -233.9139 20.00376 226.6354 -249.7152 20.00376 218.5785 -245.3741 20.00376 235.149 -233.9139 42.30376 228.2887 -227.3521 42.30376 218.5785 -245.3741 42.30376 238.2488 -228.1607 42.30376 230.6003 -223.0619 42.30376 226.6354 -249.7152 42.30376 238.6571 -227.4029 42.30376</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st65-positions-array" count="14" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st65-normals" name="mesht10gpc63846st65-normals">
+          <float_array id="mesht10gpc63846st65-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st65-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63846st65-map0" name="mesht10gpc63846st65-map0">
+          <float_array id="mesht10gpc63846st65-map0-array" count="14">0.33257 0.45955 0.33791 0.47569 0.33942 0.47485 0.34111 0.45479 0.35087 0.46846 0.38233 0.45093 0.37699 0.4348</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63846st65-map0-array" count="7" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63846st65_ChurchofSweden-vertices" name="geometryt10gpc63846st65_ChurchofSweden-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63846st65-positions" />
+        </vertices>
+        <triangles material="material2" count="10">
+          <input semantic="VERTEX" source="#geometryt10gpc63846st65_ChurchofSweden-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63846st65-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63846st65-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 2 0 2 3 0 3 0 0 0 4 0 4 3 0 3 2 0 2 4 0 4 5 0 5 6 0 6 4 0 4 6 0 6 3 0 3 7 1 4 8 1 3 9 1 6 10 1 2 8 1 3 7 1 4 11 1 0 8 1 3 10 1 2 7 1 4 9 1 6 12 1 5 13 1 1 11 1 0 10 1 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect3t10gpc62ci6st" name="effect3t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect3-image7-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image7t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image7t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image7-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect3-image8-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image8t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image8t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image8-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect3-image9-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image9t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image9t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image9-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect3-image7t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect3-image8t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect3-image9t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect4t10gpc62ci6st" name="effect4t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect4-image10-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image10t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image10t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image10-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect4-image11-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image11t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image11t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image11-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect4-image12-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image12t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image12t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image12-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect4-image10t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect4-image11t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect4-image12t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63846st" name="effect2t10gpc63846st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc63846st">
+          <surface type="2D">
+            <init_from>image6t10gpc63846st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63846st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63846st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc63846st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material3t10gpc62ci6st" name="material3t10gpc62ci6st">
+      <instance_effect url="#effect3t10gpc62ci6st" />
+    </material>
+    <material id="material4t10gpc62ci6st" name="material4t10gpc62ci6st">
+      <instance_effect url="#effect4t10gpc62ci6st" />
+    </material>
+    <material id="material2t10gpc63846st" name="material2t10gpc63846st">
+      <instance_effect url="#effect2t10gpc63846st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodexhmssgIX" name="geopipeinodexhmssgIX">
+        <translate>503.494244 -637.518019 0.000000</translate><instance_geometry url="#geometryt10gpc63846st63_ChurchofSweden">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material13" target="#material3t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63846st64_ChurchofSweden">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material14" target="#material4t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63846st65_ChurchofSweden">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63846st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="max_elevation">40.541531</param><param type="string" name="addr:housenumber">5</param><param type="string" name="religion">christian</param><param type="string" name="roof:shape">flat</param><param type="string" name="geopipe:identifier">2pY6wXdp7OMZSuEzw/8caQ==</param><param type="string" name="addr:postcode">10017</param><param type="string" name="name">Church of Sweden</param><param type="string" name="nycdoitt:bin">1035433</param><param type="string" name="addr:street">East 48th Street</param><param type="string" name="roof:height">0.000000</param><param type="string" name="amenity">place_of_worship</param><param type="string" name="building">yes</param><param type="string" name="min_elevation">20.003759</param><param type="string" name="geopipe:floor_thickness">0.319115</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:material">brick</param><param type="string" name="level_height">4.460000</param><param type="string" name="height">22.299999</param><param type="string" name="roof:material">metal</param><param type="string" name="geopipe:window_props" /><param type="string" name="denomination">protestant</param><param type="string" name="ground_elevation">20.750004</param><param type="string" name="building:color">0x562fadff</param><param type="string" name="geopipe:window_type">Picture</param><param type="string" name="min_height">0.000000</param><param type="string" name="wikidata">Q18012128</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

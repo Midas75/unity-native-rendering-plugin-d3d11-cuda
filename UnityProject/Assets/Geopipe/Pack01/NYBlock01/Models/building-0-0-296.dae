@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:32:53</created>
+	<modified>2023-06-23T18:32:53</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image7t10gpc62ci6st" name="image7t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image8t10gpc62ci6st" name="image8t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image9t10gpc62ci6st" name="image9t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_2_normal_1024.png</init_from>
+    </image>
+    <image id="image10t10gpc62ci6st" name="image10t10gpc62ci6st">
+      <init_from>images/facade_brick_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image11t10gpc62ci6st" name="image11t10gpc62ci6st">
+      <init_from>images/facade_brick_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image12t10gpc62ci6st" name="image12t10gpc62ci6st">
+      <init_from>images/facade_brick_2_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc62cm6st" name="image6t10gpc62cm6st">
+      <init_from>images/ortho10gpc62cm6.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc62cm6st42_TheMuseHotel" id="geometryt10gpc62cm6st42_TheMuseHotel">
+      <mesh name="geometryt10gpc62cm6st42_TheMuseHotel-mesh" id="geometryt10gpc62cm6st42_TheMuseHotel-mesh">
+        <source id="mesht10gpc62cm6st42-positions" name="mesht10gpc62cm6st42-positions">
+          <float_array id="mesht10gpc62cm6st42-positions-array" count="219">168.2876 -274.2628 81.75463 168.2876 -274.2628 17.12652 170.9684 -275.6628 17.12652 170.9684 -275.6628 81.75463 172.4682 -276.446 17.12652 177.8298 -279.246 17.12652 177.8298 -279.246 81.75463 172.4682 -276.446 81.75463 179.3296 -280.0292 81.75463 179.3296 -280.0292 17.12652 184.6912 -282.8292 17.12652 184.6912 -282.8292 81.75463 186.191 -283.6125 17.12652 188.8719 -285.0125 17.12652 188.8719 -285.0125 81.75463 186.191 -283.6125 81.75463 168.27 -273.5512 81.75463 169.5415 -271.1164 17.12652 168.1415 -273.7972 17.12652 169.5415 -271.1164 81.75463 168.1415 -273.7972 81.75463 172.8835 -264.7169 17.12652 170.0835 -270.0785 17.12652 170.0835 -270.0785 81.75463 172.8835 -264.7169 81.75463 174.8255 -260.9982 17.12652 173.4255 -263.679 17.12652 173.4255 -263.679 81.75463 174.8255 -260.9982 81.75463 176.7675 -257.2795 17.12652 175.3675 -259.9603 17.12652 175.3675 -259.9603 81.75463 176.7675 -257.2795 81.75463 180.1096 -250.88 17.12652 177.3096 -256.2416 17.12652 177.3096 -256.2416 81.75463 180.1096 -250.88 81.75463 182.0516 -247.1612 17.12652 180.6516 -249.842 17.12652 180.6516 -249.842 81.75463 182.0516 -247.1612 81.75463 193.4477 -252.6708 81.75463 193.4477 -252.6708 17.12652 182.7039 -247.1104 17.12652 182.7039 -247.1104 81.75463 189.3374 -284.8663 81.75463 189.3374 -284.8663 17.12652 190.7374 -282.1855 17.12652 190.7374 -282.1855 81.75463 191.2793 -281.1478 81.75463 191.2793 -281.1478 17.12652 194.0793 -275.7862 17.12652 194.0793 -275.7862 81.75463 194.6213 -274.7484 81.75463 194.6213 -274.7484 17.12652 196.0212 -272.0676 17.12652 196.0212 -272.0676 81.75463 196.5632 -271.0298 17.12652 197.9632 -268.349 17.12652 197.9632 -268.349 81.75463 196.5632 -271.0298 81.75463 198.5051 -267.3113 81.75463 198.5051 -267.3113 17.12652 201.3051 -261.9497 17.12652 201.3051 -261.9497 81.75463 201.8471 -260.9119 81.75463 201.8471 -260.9119 17.12652 203.2471 -258.2311 17.12652 203.2471 -258.2311 81.75463 202.685 -257.5441 81.75463 202.685 -257.5441 17.12652 194.662 -253.3069 17.12652 194.662 -253.3069 81.75463</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st42-positions-array" count="73" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st42-normals" name="mesht10gpc62cm6st42-normals">
+          <float_array id="mesht10gpc62cm6st42-normals-array" count="15">-0.4629072 -0.8864067 0 -0.8864067 0.4629072 0 0.4596389 0.8881059 0 0.8864067 -0.4629072 0 0.4670011 0.8842567 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st42-normals-array" count="5" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st42-map0" name="mesht10gpc62cm6st42-map0">
+          <float_array id="mesht10gpc62cm6st42-map0-array" count="70">0 16 0 0 1 0 1 16 2 0 2 16 1 0 1 16 0.90822 16 1 0 1 16 2 0 2 16 1 0 1 16 1 0 1 16 2 0 1 0 1 16 4 0 4 16 0 16 1 0 1 16 2 0 2 16 1 0 1 16 1 0 1 16 1 0 1 16 3 0 3 16</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st42-map0-array" count="35" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st42-map1" name="mesht10gpc62cm6st42-map1">
+          <float_array id="mesht10gpc62cm6st42-map1-array" count="36">1.5748 1.59608 1.26772 1.58824 1.50394 1.42745 1.44882 1.63922 1.98425 1.00392 1.81102 1.73725 1.75591 1.94118 1.18898 1.0902 1.80315 1.36078 1.3622 1.2549 1.1811 1.15294 1.92913 1.02353 1.74803 1.90588 1.27559 1.48235 1.68504 1.02745 1.9685 1.72941 1.76378 1.0549 1.51969 1.46275</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st42-map1-array" count="18" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc62cm6st42_TheMuseHotel-vertices" name="geometryt10gpc62cm6st42_TheMuseHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc62cm6st42-positions" />
+        </vertices>
+        <triangles material="material7" count="37">
+          <input semantic="VERTEX" source="#geometryt10gpc62cm6st42_TheMuseHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc62cm6st42-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc62cm6st42-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc62cm6st42-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 0 0 0 0 2 0 2 0 3 0 3 0 4 0 1 1 5 0 4 1 6 0 5 1 7 0 0 1 4 0 1 1 6 0 5 1 8 0 0 2 9 0 1 2 10 0 4 2 8 0 0 2 10 0 4 2 11 0 5 2 12 0 1 3 13 0 6 3 14 0 7 3 15 0 0 3 12 0 1 3 14 0 7 3 16 1 8 4 17 1 1 4 18 1 9 4 19 1 0 4 17 1 1 4 16 1 8 4 16 1 8 4 18 1 9 4 20 1 10 4 21 1 1 5 22 1 11 5 23 1 12 5 24 1 0 5 21 1 1 5 23 1 12 5 25 1 1 6 26 1 13 6 27 1 14 6 28 1 0 6 25 1 1 6 27 1 14 6 29 1 1 7 30 1 15 7 31 1 16 7 32 1 0 7 29 1 1 7 31 1 16 7 33 1 1 8 34 1 17 8 35 1 5 8 36 1 0 8 33 1 1 8 35 1 5 8 37 1 1 9 38 1 18 9 39 1 19 9 40 1 0 9 37 1 1 9 39 1 19 9 41 2 0 10 42 2 1 10 43 2 20 10 41 2 0 10 43 2 20 10 44 2 21 10 45 3 22 11 46 3 1 11 47 3 23 11 45 3 22 11 47 3 23 11 48 3 24 11 49 3 22 12 50 3 1 12 51 3 25 12 49 3 22 12 51 3 25 12 52 3 26 12 53 3 22 13 54 3 1 13 55 3 27 13 53 3 22 13 55 3 27 13 56 3 28 13 57 3 1 14 58 3 29 14 59 3 30 14 60 3 22 14 57 3 1 14 59 3 30 14 61 3 22 15 62 3 1 15 63 3 25 15 61 3 22 15 63 3 25 15 64 3 26 15 65 3 22 16 66 3 1 16 67 3 31 16 65 3 22 16 67 3 31 16 68 3 32 16 69 4 0 17 70 4 1 17 71 4 33 17 69 4 0 17 71 4 33 17 72 4 34 17</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc62cm6st43_TheMuseHotel" id="geometryt10gpc62cm6st43_TheMuseHotel">
+      <mesh name="geometryt10gpc62cm6st43_TheMuseHotel-mesh" id="geometryt10gpc62cm6st43_TheMuseHotel-mesh">
+        <source id="mesht10gpc62cm6st43-positions" name="mesht10gpc62cm6st43-positions">
+          <float_array id="mesht10gpc62cm6st43-positions-array" count="276">188.8719 -285.0125 17.12652 189.1777 -285.1722 81.75463 188.8719 -285.0125 81.75463 186.191 -283.6125 17.12652 189.1777 -285.1722 15.95463 186.191 -283.6125 81.75463 184.8406 -282.9072 81.75463 184.6912 -282.8292 17.12652 184.8406 -282.9072 15.95463 184.6912 -282.8292 81.75463 179.3296 -280.0292 17.12652 179.3296 -280.0292 81.75463 177.8298 -279.246 81.75463 177.8298 -279.246 17.12652 172.4682 -276.446 17.12652 167.9818 -274.1031 15.95463 172.4682 -276.446 81.75463 170.9684 -275.6628 81.75463 170.9684 -275.6628 17.12652 168.2876 -274.2628 17.12652 168.2876 -274.2628 81.75463 167.9818 -274.1031 81.75463 168.1415 -273.7972 17.12652 167.9818 -274.1031 81.75463 168.1415 -273.7972 81.75463 169.5415 -271.1164 17.12652 168.27 -273.5512 15.95463 167.9818 -274.1031 15.95463 169.5415 -271.1164 81.75463 170.0835 -270.0785 81.75463 170.0835 -270.0785 17.12652 172.8835 -264.7169 17.12652 172.8835 -264.7169 81.75463 173.4255 -263.679 81.75463 173.4255 -263.679 17.12652 174.8255 -260.9982 17.12652 174.8255 -260.9982 81.75463 175.3675 -259.9603 81.75463 175.3675 -259.9603 17.12652 176.7675 -257.2795 17.12652 182.2113 -246.8554 15.95463 176.7675 -257.2795 81.75463 177.3096 -256.2416 81.75463 177.3096 -256.2416 17.12652 180.1096 -250.88 17.12652 180.1096 -250.88 81.75463 180.6516 -249.842 81.75463 180.6516 -249.842 17.12652 182.0516 -247.1612 17.12652 182.0516 -247.1612 81.75463 182.2113 -246.8554 81.75463 182.7039 -247.1104 17.12652 182.2113 -246.8554 81.75463 182.7039 -247.1104 81.75463 193.4477 -252.6708 17.12652 182.2113 -246.8554 15.95463 193.4477 -252.6708 81.75463 193.9402 -252.9257 81.75463 193.9402 -252.9257 15.95463 203.2471 -258.2311 17.12652 203.4068 -257.9253 81.75463 203.2471 -258.2311 81.75463 201.8471 -260.9119 17.12652 203.4068 -257.9253 15.95463 201.8471 -260.9119 81.75463 201.3051 -261.9497 81.75463 201.3051 -261.9497 17.12652 198.5051 -267.3113 17.12652 198.5051 -267.3113 81.75463 197.9632 -268.349 81.75463 197.9632 -268.349 17.12652 196.5632 -271.0298 17.12652 196.5632 -271.0298 81.75463 196.0212 -272.0676 81.75463 196.0212 -272.0676 17.12652 194.6213 -274.7484 17.12652 189.1777 -285.1722 15.95463 194.6213 -274.7484 81.75463 194.0793 -275.7862 81.75463 194.0793 -275.7862 17.12652 191.2793 -281.1478 17.12652 191.2793 -281.1478 81.75463 190.7374 -282.1855 81.75463 190.7374 -282.1855 17.12652 189.3374 -284.8663 17.12652 189.3374 -284.8663 81.75463 189.1777 -285.1722 81.75463 194.662 -253.3069 17.12652 194.662 -253.3069 81.75463 202.685 -257.5441 17.12652 202.685 -257.5441 81.75463 203.4068 -257.9253 81.75463</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st43-positions-array" count="92" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st43-normals" name="mesht10gpc62cm6st43-normals">
+          <float_array id="mesht10gpc62cm6st43-normals-array" count="15">-0.4629072 -0.8864067 0 -0.8864067 0.4629072 0 0.4596389 0.8881059 0 0.8864067 -0.4629072 0 0.4670011 0.8842567 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st43-normals-array" count="5" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st43-map0" name="mesht10gpc62cm6st43-map0">
+          <float_array id="mesht10gpc62cm6st43-map0-array" count="176">1 0 1.11407 16 1 16 0 0 1.11407 -0.29013 0 16 -0.50374 16 -0.55946 0 -0.50374 -0.29013 -0.55946 16 -2.55946 0 -2.55946 16 -3.11892 16 -3.11892 0 -5.11892 0 -6.79245 -0.29013 -5.11892 16 -5.67838 16 -5.67838 0 -6.67838 0 -6.67838 16 -6.79245 16 1 0 1.11407 16 1 16 0.90822 -0.29013 1.11407 -0.29013 -0.38716 16 -0.38716 0 -2.38716 0 -2.38716 16 -2.77432 16 -2.77432 0 -3.77432 0 -3.77432 16 -4.16148 16 -4.16148 0 -5.16148 0 -9.04988 -0.29013 -5.16148 16 -5.54864 16 -5.54864 0 -7.54864 0 -7.54864 16 -7.93581 16 -7.93581 0 -8.935811 0 -8.935811 16 -9.04988 16 4 0 4.18339 16 4 16 4.18339 -0.29013 -0.18339 16 -0.18339 -0.29013 1 0 1.11407 16 1 16 1.11407 -0.29013 0 16 -0.3871 16 -0.3871 0 -2.3871 0 -2.3871 16 -2.77421 16 -2.77421 0 -3.77421 0 -3.77421 16 -4.16131 16 -4.16131 0 -5.16131 0 -9.0496 -0.29013 -5.16131 16 -5.54842 16 -5.54842 0 -7.54842 0 -7.54842 16 -7.93552 16 -7.93552 0 -8.935521 0 -8.935521 16 -9.0496 16 3 0 3.26991 16 3 16 3.26991 -0.29013 -0.26991 16 -0.26991 -0.29013</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st43-map0-array" count="88" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc62cm6st43_TheMuseHotel-vertices" name="geometryt10gpc62cm6st43_TheMuseHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc62cm6st43-positions" />
+        </vertices>
+        <triangles material="material8" count="85">
+          <input semantic="VERTEX" source="#geometryt10gpc62cm6st43_TheMuseHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc62cm6st43-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc62cm6st43-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 0 4 0 0 0 1 0 1 0 0 0 4 0 4 5 0 5 6 0 6 3 0 3 6 0 6 7 0 7 3 0 3 7 0 7 8 0 8 3 0 3 3 0 3 8 0 8 4 0 4 6 0 6 9 0 9 7 0 7 7 0 7 10 0 10 8 0 8 11 0 11 12 0 12 10 0 10 12 0 12 13 0 13 10 0 10 10 0 10 13 0 13 8 0 8 14 0 14 15 0 15 13 0 13 13 0 13 15 0 15 8 0 8 16 0 16 17 0 17 14 0 14 17 0 17 18 0 18 14 0 14 18 0 18 15 0 15 14 0 14 19 0 19 15 0 15 18 0 18 20 0 20 21 0 21 19 0 19 21 0 21 15 0 15 19 0 19 22 1 22 23 1 23 24 1 24 25 1 3 26 1 25 22 1 22 26 1 25 27 1 26 22 1 22 23 1 23 22 1 22 27 1 26 28 1 5 29 1 27 25 1 3 29 1 27 30 1 28 25 1 3 30 1 28 26 1 25 25 1 3 30 1 28 31 1 29 26 1 25 32 1 30 33 1 31 31 1 29 33 1 31 34 1 32 31 1 29 31 1 29 34 1 32 26 1 25 34 1 32 35 1 33 26 1 25 36 1 34 37 1 35 35 1 33 37 1 35 38 1 36 35 1 33 35 1 33 38 1 36 26 1 25 39 1 37 40 1 38 38 1 36 38 1 36 40 1 38 26 1 25 41 1 39 42 1 40 39 1 37 42 1 40 43 1 41 39 1 37 43 1 41 40 1 38 39 1 37 44 1 42 40 1 38 43 1 41 45 1 43 46 1 44 44 1 42 46 1 44 47 1 45 44 1 42 47 1 45 40 1 38 44 1 42 48 1 46 40 1 38 47 1 45 49 1 47 50 1 48 48 1 46 50 1 48 40 1 38 48 1 46 51 2 49 52 2 50 53 2 51 54 2 3 55 2 52 51 2 49 52 2 50 51 2 49 55 2 52 56 2 5 57 2 53 54 2 3 57 2 53 58 2 54 54 2 3 58 2 54 55 2 52 54 2 3 59 3 55 60 3 56 61 3 57 62 3 3 63 3 58 59 3 55 60 3 56 59 3 55 63 3 58 64 3 59 65 3 60 62 3 3 65 3 60 66 3 61 62 3 3 66 3 61 63 3 58 62 3 3 66 3 61 67 3 62 63 3 58 68 3 63 69 3 64 67 3 62 69 3 64 70 3 65 67 3 62 67 3 62 70 3 65 63 3 58 70 3 65 71 3 66 63 3 58 72 3 67 73 3 68 71 3 66 73 3 68 74 3 69 71 3 66 71 3 66 74 3 69 63 3 58 75 3 70 76 3 71 74 3 69 74 3 69 76 3 71 63 3 58 77 3 72 78 3 73 75 3 70 78 3 73 79 3 74 75 3 70 79 3 74 76 3 71 75 3 70 80 3 75 76 3 71 79 3 74 81 3 76 82 3 77 80 3 75 82 3 77 83 3 78 80 3 75 83 3 78 76 3 71 80 3 75 84 3 79 76 3 71 83 3 78 85 3 80 86 3 81 84 3 79 86 3 81 76 3 71 84 3 79 87 4 82 57 4 83 88 4 84 89 4 3 58 4 85 87 4 82 57 4 83 87 4 82 58 4 85 90 4 5 91 4 86 89 4 3 91 4 86 63 4 87 89 4 3 63 4 87 58 4 85 89 4 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc62cm6st44_TheMuseHotel" id="geometryt10gpc62cm6st44_TheMuseHotel">
+      <mesh name="geometryt10gpc62cm6st44_TheMuseHotel-mesh" id="geometryt10gpc62cm6st44_TheMuseHotel-mesh">
+        <source id="mesht10gpc62cm6st44-positions" name="mesht10gpc62cm6st44-positions">
+          <float_array id="mesht10gpc62cm6st44-positions-array" count="42">168.27 -273.5512 15.95463 182.2113 -246.8554 15.95463 193.9402 -252.9257 15.95463 184.8406 -282.9072 15.95463 167.9818 -274.1031 15.95463 203.4068 -257.9253 15.95463 189.1777 -285.1722 15.95463 167.9818 -274.1031 81.75463 184.8406 -282.9072 81.75463 168.27 -273.5512 81.75463 203.4068 -257.9253 81.75463 189.1777 -285.1722 81.75463 193.9402 -252.9257 81.75463 182.2113 -246.8554 81.75463</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st44-positions-array" count="14" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st44-normals" name="mesht10gpc62cm6st44-normals">
+          <float_array id="mesht10gpc62cm6st44-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st44-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc62cm6st44-map0" name="mesht10gpc62cm6st44-map0">
+          <float_array id="mesht10gpc62cm6st44-map0-array" count="14">0.44425 0.33279 0.39125 0.36151 0.39856 0.38501 0.45601 0.36597 0.44535 0.3322 0.40465 0.40398 0.45875 0.37466</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc62cm6st44-map0-array" count="7" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc62cm6st44_TheMuseHotel-vertices" name="geometryt10gpc62cm6st44_TheMuseHotel-vertices">
+          <input semantic="POSITION" source="#mesht10gpc62cm6st44-positions" />
+        </vertices>
+        <triangles material="material2" count="10">
+          <input semantic="VERTEX" source="#geometryt10gpc62cm6st44_TheMuseHotel-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc62cm6st44-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc62cm6st44-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 0 0 0 2 0 2 4 0 4 0 0 0 3 0 3 5 0 5 3 0 3 2 0 2 5 0 5 6 0 6 3 0 3 7 1 4 8 1 3 9 1 0 10 1 5 8 1 3 11 1 6 12 1 2 8 1 3 10 1 5 9 1 0 8 1 3 12 1 2 9 1 0 12 1 2 13 1 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect3t10gpc62ci6st" name="effect3t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect3-image7-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image7t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image7t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image7-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect3-image8-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image8t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image8t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image8-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect3-image9-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image9t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect3-image9t10gpc62ci6st">
+          <sampler2D>
+            <source>effect3-image9-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect3-image7t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect3-image8t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect3-image9t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect4t10gpc62ci6st" name="effect4t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect4-image10-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image10t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image10t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image10-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect4-image11-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image11t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image11t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image11-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect4-image12-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image12t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect4-image12t10gpc62ci6st">
+          <sampler2D>
+            <source>effect4-image12-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect4-image10t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect4-image11t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect4-image12t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc62cm6st" name="effect2t10gpc62cm6st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc62cm6st">
+          <surface type="2D">
+            <init_from>image6t10gpc62cm6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc62cm6st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc62cm6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc62cm6st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material3t10gpc62ci6st" name="material3t10gpc62ci6st">
+      <instance_effect url="#effect3t10gpc62ci6st" />
+    </material>
+    <material id="material4t10gpc62ci6st" name="material4t10gpc62ci6st">
+      <instance_effect url="#effect4t10gpc62ci6st" />
+    </material>
+    <material id="material2t10gpc62cm6st" name="material2t10gpc62cm6st">
+      <instance_effect url="#effect2t10gpc62cm6st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodeFw5JJsIK" name="geopipeinodeFw5JJsIK">
+        <translate>6.363984 -550.653174 0.000000</translate><instance_geometry url="#geometryt10gpc62cm6st42_TheMuseHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material7" target="#material3t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc62cm6st43_TheMuseHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material8" target="#material4t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc62cm6st44_TheMuseHotel">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc62cm6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="geopipe:identifier">SPjlqa2Bsiz4YY8of3Ls3g==</param><param type="string" name="dog">yes</param><param type="string" name="contact:instagram">https://www.instagram.com/musehotelnyc/</param><param type="string" name="max_elevation">70.908813</param><param type="string" name="addr:housenumber">130</param><param type="string" name="contact:facebook">https://www.facebook.com/themusehotel</param><param type="string" name="name">The Muse Hotel</param><param type="string" name="min_height">0.000000</param><param type="string" name="service:bicycle:rental">yes</param><param type="string" name="min_elevation">15.954627</param><param type="string" name="building:material">brick</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="roof:height">0.000000</param><param type="string" name="smoking">no</param><param type="string" name="addr:street">West 46th Street</param><param type="string" name="building">hotel</param><param type="string" name="addr:state">NY</param><param type="string" name="phone">+1 212-485-2400</param><param type="string" name="geopipe:window_props" /><param type="string" name="roof:material">metal</param><param type="string" name="height">65.800003</param><param type="string" name="geopipe:floor_thickness">0.339655</param><param type="string" name="roof:shape">flat</param><param type="string" name="level_height">4.112500</param><param type="string" name="addr:postcode">10036</param><param type="string" name="rooms">200</param><param type="string" name="fitness_centre">yes</param><param type="string" name="building:color">0xa02491ff</param><param type="string" name="nycdoitt:bin">1022645</param><param type="string" name="tourism">hotel</param><param type="string" name="cat">yes</param><param type="string" name="addr:city">New York</param><param type="string" name="ground_elevation">17.126524</param><param type="string" name="contact:twitter">https://twitter.com/Kimpton</param><param type="string" name="website">https://www.themusehotel.com</param><param type="string" name="geopipe:window_type">Picture</param><param type="string" name="operator">Kimpton Hotel &amp;amp; Restaurant Group</param><param type="string" name="fax">+1 212-485-2789</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

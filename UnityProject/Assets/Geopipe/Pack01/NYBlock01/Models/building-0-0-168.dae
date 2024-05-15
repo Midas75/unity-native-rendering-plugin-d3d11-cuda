@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:32:13</created>
+	<modified>2023-06-23T18:32:13</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image0t10gpc62ci6st" name="image0t10gpc62ci6st">
+      <init_from>images/windowedFacade_concrete_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image1t10gpc62ci6st" name="image1t10gpc62ci6st">
+      <init_from>images/windowedFacade_concrete_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image2t10gpc62ci6st" name="image2t10gpc62ci6st">
+      <init_from>images/windowedFacade_concrete_2_normal_1024.png</init_from>
+    </image>
+    <image id="image3t10gpc62ci6st" name="image3t10gpc62ci6st">
+      <init_from>images/facade_concrete_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image4t10gpc62ci6st" name="image4t10gpc62ci6st">
+      <init_from>images/facade_concrete_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image5t10gpc62ci6st" name="image5t10gpc62ci6st">
+      <init_from>images/facade_concrete_2_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63824st" name="image6t10gpc63824st">
+      <init_from>images/ortho10gpc63824.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63824st163_ConsulateGeneralArgentina" id="geometryt10gpc63824st163_ConsulateGeneralArgentina">
+      <mesh name="geometryt10gpc63824st163_ConsulateGeneralArgentina-mesh" id="geometryt10gpc63824st163_ConsulateGeneralArgentina-mesh">
+        <source id="mesht10gpc63824st163-positions" name="mesht10gpc63824st163-positions">
+          <float_array id="mesht10gpc63824st163-positions-array" count="96">125.1086 -159.9091 37.02746 125.1086 -159.9091 17.57034 135.6831 -165.5962 17.57034 135.6831 -165.5962 37.02746 125.333 -156.2298 37.02746 125.333 -156.2298 17.57034 123.9112 -158.8734 17.57034 123.9112 -158.8734 37.02746 132.3715 -143.1425 17.57034 126.6844 -153.717 17.57034 126.6844 -153.717 37.02746 132.3715 -143.1425 37.02746 135.1447 -137.9862 37.02746 135.1447 -137.9862 17.57034 133.7229 -140.6298 17.57034 133.7229 -140.6298 37.02746 144.4043 -142.5754 37.02746 144.4043 -142.5754 17.57034 136.4738 -138.3094 17.57034 136.4738 -138.3094 37.02746 137.3864 -165.6909 37.02746 137.3864 -165.6909 17.57034 141.6504 -157.7593 17.57034 141.6504 -157.7593 37.02746 142.4847 -156.2175 37.02746 142.4847 -156.2175 17.57034 148.2199 -145.669 17.57034 148.2199 -145.669 37.02746 148.4027 -144.6109 37.02746 148.4027 -144.6109 17.57034 145.879 -143.356 17.57034 145.879 -143.356 37.02746</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st163-positions-array" count="32" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st163-normals" name="mesht10gpc63824st163-normals">
+          <float_array id="mesht10gpc63824st163-normals-array" count="18">-0.4736598 -0.8807079 0 -0.8807079 0.4736598 0 0.4737328 0.8806686 0 0.8807929 -0.4735018 0 0.8785449 -0.4776598 0 0.4452112 0.8954256 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st163-normals-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st163-map0" name="mesht10gpc63824st163-map0">
+          <float_array id="mesht10gpc63824st163-map0-array" count="36">0 6 0 0 4 0 4 6 1 0 1 6 4 0 4 6 1 0 1 6 3 0 3 6 3 0 3 6 4 0 4 6 1 0 1 6</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st163-map0-array" count="18" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st163-map1" name="mesht10gpc63824st163-map1">
+          <float_array id="mesht10gpc63824st163-map1-array" count="16">1.38583 1.60392 1.71654 1.71373 1.92126 1.74902 1.10236 1.47059 1.67717 1.12941 1.05512 1.86275 1.73228 1.88627 1.87402 1.61176</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st163-map1-array" count="8" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63824st163_ConsulateGeneralArgentina-vertices" name="geometryt10gpc63824st163_ConsulateGeneralArgentina-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63824st163-positions" />
+        </vertices>
+        <triangles material="material3" count="16">
+          <input semantic="VERTEX" source="#geometryt10gpc63824st163_ConsulateGeneralArgentina-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63824st163-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63824st163-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63824st163-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 0 0 0 0 2 0 2 0 3 0 3 0 4 1 0 1 5 1 1 1 6 1 4 1 4 1 0 1 6 1 4 1 7 1 5 1 8 1 1 2 9 1 6 2 10 1 7 2 11 1 0 2 8 1 1 2 10 1 7 2 12 1 0 3 13 1 1 3 14 1 8 3 12 1 0 3 14 1 8 3 15 1 9 3 16 2 0 4 17 2 1 4 18 2 10 4 16 2 0 4 18 2 10 4 19 2 11 4 20 3 0 5 21 3 1 5 22 3 12 5 20 3 0 5 22 3 12 5 23 3 13 5 24 4 0 6 25 4 1 6 26 4 14 6 24 4 0 6 26 4 14 6 27 4 15 6 28 5 0 7 29 5 1 7 30 5 16 7 28 5 0 7 30 5 16 7 31 5 17 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63824st164_ConsulateGeneralArgentina" id="geometryt10gpc63824st164_ConsulateGeneralArgentina">
+      <mesh name="geometryt10gpc63824st164_ConsulateGeneralArgentina-mesh" id="geometryt10gpc63824st164_ConsulateGeneralArgentina-mesh">
+        <source id="mesht10gpc63824st164-positions" name="mesht10gpc63824st164-positions">
+          <float_array id="mesht10gpc63824st164-positions-array" count="132">135.6831 -165.5962 17.57034 137.0439 -166.3281 37.02746 135.6831 -165.5962 37.02746 123.7478 -159.1772 14.32746 125.1086 -159.9091 17.57034 137.0439 -166.3281 14.32746 125.1086 -159.9091 37.02746 123.7478 -159.1772 37.02746 123.9112 -158.8734 17.57034 123.9112 -158.8734 37.02746 125.333 -156.2298 17.57034 125.333 -156.2298 37.02746 126.6844 -153.717 37.02746 126.6844 -153.717 17.57034 132.3715 -143.1425 17.57034 135.3081 -137.6823 14.32746 132.3715 -143.1425 37.02746 133.7229 -140.6298 37.02746 133.7229 -140.6298 17.57034 135.1447 -137.9862 17.57034 135.1447 -137.9862 37.02746 135.3081 -137.6823 37.02746 136.4738 -138.3094 17.57034 136.4738 -138.3094 37.02746 144.4043 -142.5754 17.57034 144.4043 -142.5754 37.02746 145.57 -143.2025 37.02746 145.57 -143.2025 14.32746 141.6504 -157.7593 17.57034 141.9929 -157.1221 37.02746 141.6504 -157.7593 37.02746 137.3864 -165.6909 17.57034 141.9929 -157.1221 14.32746 137.3864 -165.6909 37.02746 148.2199 -145.669 17.57034 148.7117 -144.7645 37.02746 148.2199 -145.669 37.02746 142.4847 -156.2175 17.57034 148.7117 -144.7645 14.32746 142.4847 -156.2175 37.02746 145.879 -143.356 17.57034 145.879 -143.356 37.02746 148.4027 -144.6109 17.57034 148.4027 -144.6109 37.02746</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st164-positions-array" count="44" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st164-normals" name="mesht10gpc63824st164-normals">
+          <float_array id="mesht10gpc63824st164-normals-array" count="18">-0.4736598 -0.8807079 0 -0.8807079 0.4736598 0 0.4737328 0.8806686 0 0.8807929 -0.4735018 0 0.8785449 -0.4776598 0 0.4452112 0.8954256 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st164-normals-array" count="6" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st164-map0" name="mesht10gpc63824st164-map0">
+          <float_array id="mesht10gpc63824st164-map0-array" count="92">4 0 4.51476 6 4 6 -0.51476 -1.00001 0 0 4.51476 -1.00001 0 6 -0.51476 6 1 0 1.11494 6 1 6 1.11494 -1.00001 -0.9505 6 -0.9505 0 -4.9505 0 -7.01594 -1.00001 -4.9505 6 -5.90101 6 -5.90101 0 -6.90101 0 -6.90101 6 -7.01594 6 3 0 3.44097 6 3 6 3.44097 -1.00001 -0.44097 6 -0.44097 -1.00001 3 0 3.24102 6 3 6 3.24102 -1.00001 -0.24102 6 -0.24102 -1.00001 4 0 4.343 6 4 6 4.343 -1.00001 -0.343 6 -0.343 -1.00001 1 0 1.1224 6 1 6 1.1224 -1.00001 -0.1224 6 -0.1224 -1.00001</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st164-map0-array" count="46" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63824st164_ConsulateGeneralArgentina-vertices" name="geometryt10gpc63824st164_ConsulateGeneralArgentina-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63824st164-positions" />
+        </vertices>
+        <triangles material="material4" count="44">
+          <input semantic="VERTEX" source="#geometryt10gpc63824st164_ConsulateGeneralArgentina-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63824st164-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63824st164-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 0 0 0 4 0 4 3 0 3 5 0 5 0 0 0 1 0 1 0 0 0 5 0 5 6 0 6 7 0 7 4 0 4 7 0 7 3 0 3 4 0 4 8 1 8 7 1 9 9 1 10 10 1 4 3 1 11 8 1 8 7 1 9 8 1 8 3 1 11 11 1 6 12 1 12 10 1 4 12 1 12 13 1 13 10 1 4 13 1 13 3 1 11 10 1 4 14 1 14 15 1 15 13 1 13 13 1 13 15 1 15 3 1 11 16 1 16 17 1 17 14 1 14 17 1 17 18 1 18 14 1 14 18 1 18 15 1 15 14 1 14 19 1 19 15 1 15 18 1 18 20 1 20 21 1 21 19 1 19 21 1 21 15 1 15 19 1 19 22 2 22 21 2 23 23 2 24 24 2 4 15 2 25 22 2 22 21 2 23 22 2 22 15 2 25 25 2 6 26 2 26 24 2 4 26 2 26 27 2 27 24 2 4 27 2 27 15 2 25 24 2 4 28 3 28 29 3 29 30 3 30 31 3 4 32 3 31 28 3 28 29 3 29 28 3 28 32 3 31 33 3 6 1 3 32 31 3 4 1 3 32 5 3 33 31 3 4 5 3 33 32 3 31 31 3 4 34 4 34 35 4 35 36 4 36 37 4 4 38 4 37 34 4 34 35 4 35 34 4 34 38 4 37 39 4 6 29 4 38 37 4 4 29 4 38 32 4 39 37 4 4 32 4 39 38 4 37 37 4 4 40 5 40 26 5 41 41 5 42 42 5 4 27 5 43 40 5 40 26 5 41 40 5 40 27 5 43 43 5 6 35 5 44 42 5 4 35 5 44 38 5 45 42 5 4 38 5 45 27 5 43 42 5 4</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63824st165_ConsulateGeneralArgentina" id="geometryt10gpc63824st165_ConsulateGeneralArgentina">
+      <mesh name="geometryt10gpc63824st165_ConsulateGeneralArgentina-mesh" id="geometryt10gpc63824st165_ConsulateGeneralArgentina-mesh">
+        <source id="mesht10gpc63824st165-positions" name="mesht10gpc63824st165-positions">
+          <float_array id="mesht10gpc63824st165-positions-array" count="36">135.3081 -137.6823 14.32746 145.57 -143.2025 14.32746 141.9929 -157.1221 14.32746 123.7478 -159.1772 14.32746 148.7117 -144.7645 14.32746 137.0439 -166.3281 14.32746 123.7478 -159.1772 37.02746 137.0439 -166.3281 37.02746 141.9929 -157.1221 37.02746 135.3081 -137.6823 37.02746 148.7117 -144.7645 37.02746 145.57 -143.2025 37.02746</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st165-positions-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st165-normals" name="mesht10gpc63824st165-normals">
+          <float_array id="mesht10gpc63824st165-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st165-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63824st165-map0" name="mesht10gpc63824st165-map0">
+          <float_array id="mesht10gpc63824st165-map0-array" count="12">0.20753 0.2695 0.21431 0.29005 0.2407799 0.28251 0.25032 0.24569 0.21615 0.29635 0.2591 0.27232</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63824st165-map0-array" count="6" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63824st165_ConsulateGeneralArgentina-vertices" name="geometryt10gpc63824st165_ConsulateGeneralArgentina-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63824st165-positions" />
+        </vertices>
+        <triangles material="material2" count="8">
+          <input semantic="VERTEX" source="#geometryt10gpc63824st165_ConsulateGeneralArgentina-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63824st165-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63824st165-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 0 0 0 2 0 2 3 0 3 2 0 2 1 0 1 4 0 4 3 0 3 2 0 2 5 0 5 6 1 3 7 1 5 8 1 2 8 1 2 9 1 0 6 1 3 10 1 4 11 1 1 8 1 2 8 1 2 11 1 1 9 1 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect0t10gpc62ci6st" name="effect0t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect0-image0-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image0t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image0t10gpc62ci6st">
+          <sampler2D>
+            <source>effect0-image0-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect0-image1-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image1t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image1t10gpc62ci6st">
+          <sampler2D>
+            <source>effect0-image1-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect0-image2-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image2t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image2t10gpc62ci6st">
+          <sampler2D>
+            <source>effect0-image2-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect0-image0t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect0-image1t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect0-image2t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect1t10gpc62ci6st" name="effect1t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect1-image3-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image3t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect1-image3t10gpc62ci6st">
+          <sampler2D>
+            <source>effect1-image3-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect1-image4-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image4t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect1-image4t10gpc62ci6st">
+          <sampler2D>
+            <source>effect1-image4-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect1-image5-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image5t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect1-image5t10gpc62ci6st">
+          <sampler2D>
+            <source>effect1-image5-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect1-image3t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect1-image4t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect1-image5t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63824st" name="effect2t10gpc63824st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc63824st">
+          <surface type="2D">
+            <init_from>image6t10gpc63824st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63824st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63824st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc63824st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material0t10gpc62ci6st" name="material0t10gpc62ci6st">
+      <instance_effect url="#effect0t10gpc62ci6st" />
+    </material>
+    <material id="material1t10gpc62ci6st" name="material1t10gpc62ci6st">
+      <instance_effect url="#effect1t10gpc62ci6st" />
+    </material>
+    <material id="material2t10gpc63824st" name="material2t10gpc63824st">
+      <instance_effect url="#effect2t10gpc63824st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodeF3gYfXCj" name="geopipeinodeF3gYfXCj">
+        <translate>745.650811 -130.302574 0.000000</translate><instance_geometry url="#geometryt10gpc63824st163_ConsulateGeneralArgentina">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material3" target="#material0t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63824st164_ConsulateGeneralArgentina">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material4" target="#material1t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63824st165_ConsulateGeneralArgentina">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63824st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="name:ar">Consulado General de la Rep&#250;blica Argentina</param><param type="string" name="consulate">consulate_general</param><param type="string" name="geopipe:identifier">Ejj0Qqhtc7vGink1IJytMg==</param><param type="string" name="name">Consulate General Argentina</param><param type="string" name="addr:postcode">10019</param><param type="string" name="nycdoitt:bin">1034835</param><param type="string" name="country">AR</param><param type="string" name="building">yes</param><param type="string" name="min_elevation">14.327464</param><param type="string" name="addr:housenumber">12</param><param type="string" name="office">diplomatic</param><param type="string" name="name:fr">Consulat g&#233;n&#233;ral d&amp;apos;Argentine</param><param type="string" name="roof:shape">flat</param><param type="string" name="name:en">Consulate General Argentina</param><param type="string" name="diplomatic">consulate</param><param type="string" name="geopipe:floor_thickness">0.327718</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:material">concrete</param><param type="string" name="level_height">3.000000</param><param type="string" name="height">22.700001</param><param type="string" name="roof:material">metal</param><param type="string" name="geopipe:window_props" /><param type="string" name="min_height">0.000000</param><param type="string" name="ground_elevation">17.570341</param><param type="string" name="building:color">0x0fbbb3ff</param><param type="string" name="geopipe:window_type">DoubleHung</param><param type="string" name="max_elevation">38.209808</param><param type="string" name="addr:street">West 56th Street</param><param type="string" name="roof:height">0.000000</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

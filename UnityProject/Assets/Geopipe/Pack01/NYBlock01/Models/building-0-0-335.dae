@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:33:05</created>
+	<modified>2023-06-23T18:33:05</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image37t10gpc62ci6st" name="image37t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_3_diffuse_1024.png</init_from>
+    </image>
+    <image id="image38t10gpc62ci6st" name="image38t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_3_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image39t10gpc62ci6st" name="image39t10gpc62ci6st">
+      <init_from>images/windowedFacade_brick_3_normal_1024.png</init_from>
+    </image>
+    <image id="image40t10gpc62ci6st" name="image40t10gpc62ci6st">
+      <init_from>images/facade_brick_3_diffuse_1024.png</init_from>
+    </image>
+    <image id="image41t10gpc62ci6st" name="image41t10gpc62ci6st">
+      <init_from>images/facade_brick_3_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image42t10gpc62ci6st" name="image42t10gpc62ci6st">
+      <init_from>images/facade_brick_3_normal_1024.png</init_from>
+    </image>
+    <image id="image3t10gpc63844st" name="image3t10gpc63844st">
+      <init_from>images/ortho10gpc63844.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63844st6" id="geometryt10gpc63844st6">
+      <mesh name="geometryt10gpc63844st6-mesh" id="geometryt10gpc63844st6-mesh">
+        <source id="mesht10gpc63844st6-positions" name="mesht10gpc63844st6-positions">
+          <float_array id="mesht10gpc63844st6-positions-array" count="90">170.3394 -167.727 18.34797 164.7989 -178.1006 18.34797 164.7989 -178.1006 77.73614 170.3394 -167.727 77.73614 174.3837 -187.3806 77.73614 165.2745 -182.4921 18.34797 183.4089 -192.2241 18.34797 172.2286 -186.2241 77.73614 165.2745 -182.4921 77.73614 183.4089 -192.2241 77.73614 174.6268 -164.7969 18.34797 173.2377 -167.3882 18.34797 173.2377 -167.3882 77.73614 174.6268 -164.7969 77.73614 175.5698 -157.9871 77.73614 175.5698 -157.9871 18.34797 174.1966 -160.5868 18.34797 174.1966 -160.5868 77.73614 177.3246 -154.7087 77.73614 177.3246 -154.7087 18.34797 176.0169 -157.1454 18.34797 176.0169 -157.1454 77.73614 199.256 -166.0869 77.73614 199.256 -166.0869 18.34797 178.531 -154.9645 18.34797 178.531 -154.9645 77.73614 187.2646 -190.9353 18.34797 199.7772 -167.6196 18.34797 199.7772 -167.6196 77.73614 187.2646 -190.9353 77.73614</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st6-positions-array" count="30" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st6-normals" name="mesht10gpc63844st6-normals">
+          <float_array id="mesht10gpc63844st6-normals-array" count="21">-0.8820728 0.471113 0 -0.472869 -0.8811327 0 -0.8813363 0.4724894 0 -0.8842315 0.467049 0 -0.8811327 0.472869 0 0.472869 0.8811327 0 0.8811327 -0.472869 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st6-normals-array" count="7" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st6-map0" name="mesht10gpc63844st6-map0">
+          <float_array id="mesht10gpc63844st6-map0-array" count="38">0 0 4 0 4 18 0 18 3.51622 18 7 0 2.68433 18 7 18 1 0 1 18 1 0 1 18 1 0 1 18 8 0 8 18 9 0 9 18 0 18</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st6-map0-array" count="19" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st6-map1" name="mesht10gpc63844st6-map1">
+          <float_array id="mesht10gpc63844st6-map1-array" count="14">1.97638 1.57647 1.66142 1.59216 1.79528 1.19608 1.56693 1.09804 1.03937 1.16863 1.88189 1.81961 1.06299 1.75294</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st6-map1-array" count="7" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63844st6-vertices" name="geometryt10gpc63844st6-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63844st6-positions" />
+        </vertices>
+        <triangles material="material5" count="16">
+          <input semantic="VERTEX" source="#geometryt10gpc63844st6-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63844st6-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63844st6-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63844st6-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 3 0 3 0 0 0 0 0 2 0 2 0 4 1 4 1 5 1 0 1 6 1 5 1 7 1 6 1 5 1 0 1 4 1 4 1 8 1 3 1 5 1 0 1 7 1 6 1 4 1 4 1 6 1 5 1 9 1 7 1 10 2 0 2 11 2 8 2 12 2 9 2 13 2 3 2 10 2 0 2 12 2 9 2 14 3 3 3 15 3 0 3 16 3 10 3 14 3 3 3 16 3 10 3 17 3 11 3 18 4 3 4 19 4 0 4 20 4 12 4 18 4 3 4 20 4 12 4 21 4 13 4 22 5 3 5 23 5 0 5 24 5 14 5 22 5 3 5 24 5 14 5 25 5 15 5 26 6 0 6 27 6 16 6 28 6 17 6 29 6 18 6 26 6 0 6 28 6 17 6</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63844st7" id="geometryt10gpc63844st7">
+      <mesh name="geometryt10gpc63844st7-mesh" id="geometryt10gpc63844st7-mesh">
+        <source id="mesht10gpc63844st7-positions" name="mesht10gpc63844st7-positions">
+          <float_array id="mesht10gpc63844st7-positions-array" count="192">163.9328 -179.6625 17.73614 165.6882 -180.6045 77.73614 163.9328 -179.6625 77.73614 165.6882 -180.6045 17.73614 164.5336 -178.5973 17.73614 164.5336 -178.5973 77.73614 164.7989 -178.1006 18.34797 164.7989 -178.1006 77.73614 170.3394 -167.727 18.34797 170.3394 -167.727 77.73614 170.6048 -167.2302 77.73614 170.6048 -167.2302 17.73614 164.8088 -182.2421 17.73614 164.8088 -182.2421 77.73614 183.4089 -192.2241 18.34797 183.8746 -192.474 77.73614 183.4089 -192.2241 77.73614 165.2745 -182.4921 18.34797 174.3837 -187.3806 17.73614 183.8746 -192.474 17.73614 165.2745 -182.4921 77.73614 164.8088 -182.2421 77.73614 164.8088 -182.2421 17.73614 172.2286 -186.2241 17.73614 172.7134 -168.366 17.73614 172.7134 -168.366 77.73614 173.2377 -167.3882 18.34797 173.2377 -167.3882 77.73614 175.1511 -163.8191 17.73614 174.6268 -164.7969 18.34797 174.6268 -164.7969 77.73614 175.1511 -163.8191 77.73614 173.9126 -161.1245 17.73614 173.0463 -162.6807 17.73614 173.0463 -162.6807 77.73614 173.9126 -161.1245 77.73614 174.1966 -160.5868 18.34797 174.1966 -160.5868 77.73614 175.5698 -157.9871 18.34797 175.5698 -157.9871 77.73614 175.8538 -157.4494 77.73614 175.8538 -157.4494 17.73614 176.0169 -157.1454 18.34797 176.0169 -157.1454 77.73614 177.4877 -154.4047 17.73614 177.3246 -154.7087 18.34797 177.3246 -154.7087 77.73614 177.4877 -154.4047 77.73614 178.531 -154.9645 18.34797 178.531 -154.9645 77.73614 200.2993 -166.6467 17.73614 199.256 -166.0869 18.34797 199.256 -166.0869 77.73614 200.2993 -166.6467 77.73614 184.7513 -190.8415 17.73614 184.7513 -190.8415 77.73614 186.7425 -191.9082 77.73614 186.7425 -191.9082 17.73614 199.7772 -167.6196 18.34797 200.2993 -166.6467 77.73614 199.7772 -167.6196 77.73614 187.2646 -190.9353 18.34797 187.2646 -190.9353 77.73614 186.7425 -191.9082 77.73614</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st7-positions-array" count="64" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st7-normals" name="mesht10gpc63844st7-normals">
+          <float_array id="mesht10gpc63844st7-normals-array" count="45">-0.4728613 -0.8811368 0 -0.8710139 0.4912585 0 -0.8820728 0.471113 0 -0.8810019 0.4731127 0 -0.472869 -0.8811327 0 0.4742211 0.8804058 0 -0.8813363 0.4724894 0 -0.8737525 0.4863709 0 -0.475722 -0.8795957 0 -0.8842315 0.467049 0 -0.8811327 0.472869 0 0.472869 0.8811327 0 0.8810024 -0.4731118 0 -0.4722293 -0.8814758 0 0.8811327 -0.472869 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st7-normals-array" count="15" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st7-map0" name="mesht10gpc63844st7-map0">
+          <float_array id="mesht10gpc63844st7-map0-array" count="128">0 0 0.66404 20 0 20 0.66404 0 0.40765 0 0.40765 20 4 0 4.19156 18 4 18 4.19156 -0.18544 0 18 -0.19156 18 -0.19156 -0.18544 0.61959 0 0.61959 20 7 0 7.17976 18 7 18 3.51622 -0.18544 7.17976 -0.18544 -0.17976 18 -0.17976 -0.18544 2.68433 -0.18544 0.79837 0 0.79837 20 1 0 1.37737 18 1 18 -0.37737 -0.18544 1.37737 -0.18544 -0.37737 18 0.59369 0 0.59369 20 0.79763 20 0.79763 0 1 0 1.20684 18 1 18 1.20684 -0.18544 -0.20684 18 -0.20684 -0.18544 1 0 1.12476 18 1 18 -0.12476 -0.18544 1.12476 -0.18544 -0.12476 18 8 0 8.402701 18 8 18 -0.4027 -0.18544 8.402701 -0.18544 -0.4027 18 0.61768 0 0.61768 20 0.75297 20 0.75297 0 9 0 9.37554 18 9 18 9.37554 -0.18544 0 18 -0.37554 18 -0.37554 -0.18544</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st7-map0-array" count="64" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63844st7-vertices" name="geometryt10gpc63844st7-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63844st7-positions" />
+        </vertices>
+        <triangles material="material6" count="60">
+          <input semantic="VERTEX" source="#geometryt10gpc63844st7-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63844st7-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63844st7-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 0 0 0 3 0 3 1 0 1 4 1 0 0 1 4 2 1 5 4 1 0 2 1 5 5 1 2 6 2 6 5 2 7 7 2 8 8 2 0 4 2 9 6 2 6 5 2 7 6 2 6 4 2 9 9 2 10 10 2 11 8 2 0 10 2 11 11 2 12 8 2 0 11 2 12 4 2 9 8 2 0 3 3 0 12 3 13 13 3 14 3 3 0 13 3 14 1 3 2 14 4 15 15 4 16 16 4 17 14 4 15 17 4 0 18 4 18 18 4 18 19 4 19 14 4 15 15 4 16 14 4 15 19 4 19 20 4 10 21 4 20 17 4 0 21 4 20 22 4 21 17 4 0 22 4 21 23 4 22 17 4 0 18 4 18 17 4 0 23 4 22 24 5 0 11 5 23 10 5 24 24 5 0 10 5 24 25 5 2 26 6 25 25 6 26 27 6 27 28 6 28 26 6 25 29 6 0 28 6 28 24 6 29 26 6 25 25 6 26 26 6 25 24 6 29 30 6 10 31 6 30 29 6 0 31 6 30 28 6 28 29 6 0 32 7 0 33 7 31 34 7 32 32 7 0 34 7 32 35 7 2 33 8 0 31 8 33 34 8 2 33 8 0 28 8 34 31 8 33 36 9 35 35 9 36 37 9 37 38 9 0 32 9 38 36 9 35 35 9 36 36 9 35 32 9 38 39 9 10 40 9 39 38 9 0 40 9 39 41 9 40 38 9 0 41 9 40 32 9 38 38 9 0 42 10 41 40 10 42 43 10 43 44 10 44 42 10 41 45 10 0 44 10 44 41 10 45 42 10 41 40 10 42 42 10 41 41 10 45 46 10 10 47 10 46 45 10 0 47 10 46 44 10 44 45 10 0 48 11 47 47 11 48 49 11 49 50 11 50 48 11 47 51 11 0 50 11 50 44 11 51 48 11 47 47 11 48 48 11 47 44 11 51 52 11 10 53 11 52 51 11 0 53 11 52 50 11 50 51 11 0 19 12 0 54 12 53 55 12 54 19 12 0 55 12 54 15 12 2 54 13 0 56 13 55 55 13 2 54 13 0 57 13 56 56 13 55 58 14 57 59 14 58 60 14 59 61 14 0 50 14 60 58 14 57 59 14 58 58 14 57 50 14 60 62 14 61 63 14 62 61 14 0 63 14 62 57 14 63 61 14 0 57 14 63 50 14 60 61 14 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63844st8" id="geometryt10gpc63844st8">
+      <mesh name="geometryt10gpc63844st8-mesh" id="geometryt10gpc63844st8-mesh">
+        <source id="mesht10gpc63844st8-positions" name="mesht10gpc63844st8-positions">
+          <float_array id="mesht10gpc63844st8-positions-array" count="102">165.6882 -180.6045 17.73614 163.9328 -179.6625 17.73614 164.5336 -178.5973 17.73614 172.7134 -168.366 17.73614 172.2286 -186.2241 17.73614 164.8088 -182.2421 17.73614 170.6048 -167.2302 17.73614 175.1511 -163.8191 17.73614 200.2993 -166.6467 17.73614 184.7513 -190.8415 17.73614 174.3837 -187.3806 17.73614 173.0463 -162.6807 17.73614 173.9126 -161.1245 17.73614 175.8538 -157.4494 17.73614 177.4877 -154.4047 17.73614 186.7425 -191.9082 17.73614 183.8746 -192.474 17.73614 165.6882 -180.6045 77.73614 164.8088 -182.2421 77.73614 172.2286 -186.2241 77.73614 174.3837 -187.3806 77.73614 172.7134 -168.366 77.73614 183.8746 -192.474 77.73614 184.7513 -190.8415 77.73614 200.2993 -166.6467 77.73614 186.7425 -191.9082 77.73614 177.4877 -154.4047 77.73614 175.1511 -163.8191 77.73614 175.8538 -157.4494 77.73614 173.9126 -161.1245 77.73614 173.0463 -162.6807 77.73614 170.6048 -167.2302 77.73614 164.5336 -178.5973 77.73614 163.9328 -179.6625 77.73614</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st8-positions-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st8-normals" name="mesht10gpc63844st8-normals">
+          <float_array id="mesht10gpc63844st8-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st8-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63844st8-map0" name="mesht10gpc63844st8-map0">
+          <float_array id="mesht10gpc63844st8-map0-array" count="34">0.27595 0.32974 0.2748 0.32622 0.27267 0.32746 0.25145 0.34418 0.2841 0.34279 0.27921 0.32793 0.25005 0.33996 0.2424 0.3492 0.2395499 0.39982 0.28852 0.36792 0.28552 0.3471 0.2409999 0.34499 0.23789 0.34677 0.23059 0.35077 0.22453 0.35413 0.28983 0.37191 0.29177 0.36611</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63844st8-map0-array" count="17" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63844st8-vertices" name="geometryt10gpc63844st8-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63844st8-positions" />
+        </vertices>
+        <triangles material="material1" count="30">
+          <input semantic="VERTEX" source="#geometryt10gpc63844st8-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63844st8-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63844st8-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 2 0 2 3 0 3 0 0 0 0 0 0 3 0 3 4 0 4 0 0 0 4 0 4 5 0 5 6 0 6 3 0 3 2 0 2 7 0 7 8 0 8 3 0 3 3 0 3 8 0 8 9 0 9 9 0 9 10 0 10 3 0 3 4 0 4 3 0 3 10 0 10 11 0 11 12 0 12 7 0 7 12 0 12 13 0 13 7 0 7 13 0 13 14 0 14 7 0 7 14 0 14 8 0 8 7 0 7 9 0 9 8 0 8 15 0 15 10 0 10 9 0 9 16 0 16 17 1 0 18 1 5 19 1 4 20 1 10 21 1 3 19 1 4 21 1 3 17 1 0 19 1 4 22 1 16 23 1 9 20 1 10 20 1 10 23 1 9 21 1 3 24 1 8 23 1 9 25 1 15 21 1 3 23 1 9 24 1 8 26 1 14 27 1 7 24 1 8 27 1 7 21 1 3 24 1 8 27 1 7 26 1 14 28 1 13 29 1 12 27 1 7 28 1 13 30 1 11 27 1 7 29 1 12 31 1 6 32 1 2 21 1 3 21 1 3 32 1 2 17 1 0 32 1 2 33 1 1 17 1 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect13t10gpc62ci6st" name="effect13t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect13-image37-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image37t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect13-image37t10gpc62ci6st">
+          <sampler2D>
+            <source>effect13-image37-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect13-image38-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image38t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect13-image38t10gpc62ci6st">
+          <sampler2D>
+            <source>effect13-image38-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect13-image39-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image39t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect13-image39t10gpc62ci6st">
+          <sampler2D>
+            <source>effect13-image39-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect13-image37t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect13-image38t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect13-image39t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect14t10gpc62ci6st" name="effect14t10gpc62ci6st">
+      <profile_COMMON>
+        <newparam sid="effect14-image40-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image40t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect14-image40t10gpc62ci6st">
+          <sampler2D>
+            <source>effect14-image40-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect14-image41-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image41t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect14-image41t10gpc62ci6st">
+          <sampler2D>
+            <source>effect14-image41-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect14-image42-surfacet10gpc62ci6st">
+          <surface type="2D">
+            <init_from>image42t10gpc62ci6st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect14-image42t10gpc62ci6st">
+          <sampler2D>
+            <source>effect14-image42-surfacet10gpc62ci6st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect14-image40t10gpc62ci6st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect14-image41t10gpc62ci6st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect14-image42t10gpc62ci6st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect1t10gpc63844st" name="effect1t10gpc63844st">
+      <profile_COMMON>
+        <newparam sid="effect1-image3-surfacet10gpc63844st">
+          <surface type="2D">
+            <init_from>image3t10gpc63844st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect1-image3t10gpc63844st">
+          <sampler2D>
+            <source>effect1-image3-surfacet10gpc63844st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect1-image3t10gpc63844st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material13t10gpc62ci6st" name="material13t10gpc62ci6st">
+      <instance_effect url="#effect13t10gpc62ci6st" />
+    </material>
+    <material id="material14t10gpc62ci6st" name="material14t10gpc62ci6st">
+      <instance_effect url="#effect14t10gpc62ci6st" />
+    </material>
+    <material id="material1t10gpc63844st" name="material1t10gpc63844st">
+      <instance_effect url="#effect1t10gpc63844st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodeowEtx_SS" name="geopipeinodeowEtx_SS">
+        <translate>254.925597 -594.084986 0.000000</translate><instance_geometry url="#geometryt10gpc63844st6">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material5" target="#material13t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63844st7">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material6" target="#material14t10gpc62ci6st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63844st8">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material1" target="#material1t10gpc63844st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="addr:housenumber">64</param><param type="string" name="roof:shape">flat</param><param type="string" name="building">yes</param><param type="string" name="min_elevation">17.736135</param><param type="string" name="max_elevation">67.821182</param><param type="string" name="geopipe:identifier">4jAhkf2cN7fHaM8V6nvn/A==</param><param type="string" name="addr:postcode">10036</param><param type="string" name="nycdoitt:bin">1034501</param><param type="string" name="geopipe:floor_thickness">0.349020</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:material">brick</param><param type="string" name="level_height">3.333333</param><param type="string" name="height">60.000000</param><param type="string" name="roof:material">metal</param><param type="string" name="geopipe:window_props" /><param type="string" name="min_height">0.000000</param><param type="string" name="ground_elevation">18.347971</param><param type="string" name="building:color">0x20015fff</param><param type="string" name="geopipe:window_type">DoubleHung</param><param type="string" name="roof:height">0.000000</param><param type="string" name="addr:street">West 48th Street</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

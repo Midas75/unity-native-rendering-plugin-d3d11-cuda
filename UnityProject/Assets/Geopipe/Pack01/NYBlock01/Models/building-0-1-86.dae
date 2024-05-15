@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:34:56</created>
+	<modified>2023-06-23T18:34:56</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image13t10gpc63826st" name="image13t10gpc63826st">
+      <init_from>images/windowedFacade_marble_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image14t10gpc63826st" name="image14t10gpc63826st">
+      <init_from>images/windowedFacade_marble_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image15t10gpc63826st" name="image15t10gpc63826st">
+      <init_from>images/windowedFacade_marble_1_normal_1024.png</init_from>
+    </image>
+    <image id="image16t10gpc63826st" name="image16t10gpc63826st">
+      <init_from>images/facade_marble_1_diffuse_1024.png</init_from>
+    </image>
+    <image id="image17t10gpc63826st" name="image17t10gpc63826st">
+      <init_from>images/facade_marble_1_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image18t10gpc63826st" name="image18t10gpc63826st">
+      <init_from>images/facade_marble_1_normal_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63866st" name="image6t10gpc63866st">
+      <init_from>images/ortho10gpc63866.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork" id="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork">
+      <mesh name="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork-mesh" id="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork-mesh">
+        <source id="mesht10gpc63866st24-positions" name="mesht10gpc63866st24-positions">
+          <float_array id="mesht10gpc63866st24-positions-array" count="102">173.1206 -221.5693 14.60261 188.723 -229.9994 14.60261 188.723 -229.9994 84.78943 173.1206 -221.5693 84.78943 184.9988 -195.7761 14.60261 172.3536 -219.1796 14.60261 172.3536 -219.1796 84.78943 184.9988 -195.7761 84.78943 203.0203 -203.5382 14.60261 187.418 -195.108 14.60261 187.418 -195.108 84.78943 203.0203 -203.5382 84.78943 194.4039 -223.2946 84.78943 191.0172 -229.5625 14.60261 195.2323 -221.7613 14.60261 191.0172 -229.5625 84.78943 195.2323 -221.7613 84.78943 192.7415 -216.8454 84.78943 192.7415 -216.8454 14.60261 195.5521 -211.6449 14.60261 195.5521 -211.6449 84.78943 195.2415 -220.09 14.60261 192.6407 -218.6857 14.60261 192.6407 -218.6857 84.78943 195.2415 -220.09 84.78943 197.036 -210.5522 14.60261 199.6355 -211.9588 14.60261 199.6355 -211.9588 84.78943 197.036 -210.5522 84.78943 202.785 -207.7831 84.78943 201.065 -210.9663 14.60261 203.8751 -205.7655 14.60261 201.065 -210.9663 84.78943 203.8751 -205.7655 84.78943</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st24-positions-array" count="34" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st24-normals" name="mesht10gpc63866st24-normals">
+          <float_array id="mesht10gpc63866st24-normals-array" count="24">-0.475362 -0.8797903 0 -0.8797903 0.475362 0 0.475362 0.8797903 0 0.8797903 -0.475362 0 0.8797373 -0.4754601 0 0.4751209 0.8799205 0 -0.4759173 -0.87949 0 0.8797903 -0.475362 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st24-normals-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st24-map0" name="mesht10gpc63866st24-map0">
+          <float_array id="mesht10gpc63866st24-map0-array" count="42">0 0 6 0 6 19 0 19 9 0 9 19 6 0 6 19 2.41036 19 3 0 3 19 0 19 2 0 2 19 1 0 1 19 1 0 1 19 1.22413 19 2 0 2 19</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st24-map0-array" count="21" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st24-map1" name="mesht10gpc63866st24-map1">
+          <float_array id="mesht10gpc63866st24-map1-array" count="16">1.92913 1.02353 1.74803 1.90588 1.27559 1.48235 1.68504 1.02745 1.9685 1.72941 1.76378 1.0549 1.51969 1.46275 1.05512 1.02745</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st24-map1-array" count="8" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork-vertices" name="geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63866st24-positions" />
+        </vertices>
+        <triangles material="material3" count="18">
+          <input semantic="VERTEX" source="#geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63866st24-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63866st24-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63866st24-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 3 0 3 0 0 0 0 0 2 0 2 0 4 1 0 1 5 1 4 1 6 1 5 1 7 1 3 1 4 1 0 1 6 1 5 1 8 2 0 2 9 2 6 2 10 2 7 2 11 2 3 2 8 2 0 2 10 2 7 2 12 3 8 3 13 3 0 3 14 3 9 3 15 3 3 3 13 3 0 3 12 3 8 3 12 3 8 3 14 3 9 3 16 3 10 3 17 4 11 4 18 4 0 4 19 4 12 4 17 4 11 4 19 4 12 4 20 4 13 4 21 5 0 5 22 5 14 5 23 5 15 5 24 5 3 5 21 5 0 5 23 5 15 5 25 6 0 6 26 6 16 6 27 6 17 6 28 6 3 6 25 6 0 6 27 6 17 6 29 7 18 7 30 7 0 7 31 7 19 7 32 7 3 7 30 7 0 7 29 7 18 7 29 7 18 7 31 7 19 7 33 7 20 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork" id="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork">
+      <mesh name="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork-mesh" id="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork-mesh">
+        <source id="mesht10gpc63866st25-positions" name="mesht10gpc63866st25-positions">
+          <float_array id="mesht10gpc63866st25-positions-array" count="165">188.723 -229.9994 14.60261 190.3161 -230.8602 84.78943 188.723 -229.9994 84.78943 173.1206 -221.5693 14.60261 190.3161 -230.8602 12.22625 173.1206 -221.5693 84.78943 171.5275 -220.7085 84.78943 171.5275 -220.7085 12.22625 172.3536 -219.1796 14.60261 172.3536 -219.1796 84.78943 185.8249 -194.2473 12.22625 184.9988 -195.7761 14.60261 184.9988 -195.7761 84.78943 185.8249 -194.2473 84.78943 187.418 -195.108 14.60261 187.418 -195.108 84.78943 203.0203 -203.5382 14.60261 203.0203 -203.5382 84.78943 204.6134 -204.399 84.78943 204.6134 -204.399 12.22625 195.2323 -221.7613 14.60261 195.9335 -220.4637 84.78943 195.2323 -221.7613 84.78943 191.0172 -229.5625 14.60261 194.4039 -223.2946 12.22625 195.9335 -220.4637 12.22625 191.0172 -229.5625 84.78943 190.3161 -230.8602 84.78943 190.3161 -230.8602 12.22625 195.5521 -211.6449 14.60261 196.3448 -210.1781 84.78943 195.5521 -211.6449 84.78943 192.7415 -216.8454 14.60261 196.3448 -210.1781 12.22625 192.7415 -216.8454 84.78943 191.9488 -218.3121 84.78943 191.9488 -218.3121 12.22625 192.6407 -218.6857 14.60261 191.9488 -218.3121 84.78943 192.6407 -218.6857 84.78943 195.2415 -220.09 14.60261 191.9488 -218.3121 12.22625 195.2415 -220.09 84.78943 199.6355 -211.9588 14.60261 200.3267 -212.3328 84.78943 199.6355 -211.9588 84.78943 197.036 -210.5522 14.60261 200.3267 -212.3328 12.22625 197.036 -210.5522 84.78943 196.3448 -210.1781 84.78943 203.8751 -205.7655 14.60261 203.8751 -205.7655 84.78943 201.065 -210.9663 14.60261 202.785 -207.7831 12.22625 201.065 -210.9663 84.78943</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st25-positions-array" count="55" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st25-normals" name="mesht10gpc63866st25-normals">
+          <float_array id="mesht10gpc63866st25-normals-array" count="24">-0.475362 -0.8797903 0 -0.8797903 0.475362 0 0.475362 0.8797903 0 0.8797903 -0.475362 0 0.8797373 -0.4754601 0 0.4751209 0.8799205 0 -0.4759173 -0.87949 0 0.8797903 -0.475362 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st25-normals-array" count="8" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st25-map0" name="mesht10gpc63866st25-map0">
+          <float_array id="mesht10gpc63866st25-map0-array" count="106">6 0 6.61264 19 6 19 0 0 6.61264 -0.64329 0 19 -0.61264 19 -0.61264 -0.64329 9 0 9.587941 19 9 19 -0.58794 -0.64329 9.587941 -0.64329 -0.58794 19 6 0 6.61264 19 6 19 6.61264 -0.64329 -0.61264 19 -0.61264 -0.64329 3 0 3.49903 19 3 19 2.41036 -0.64329 3.49903 -0.64329 -0.49903 19 -0.49903 -0.64329 2 0 2.56408 19 2 19 2.56408 -0.64329 0 19 -0.56408 19 -0.56408 -0.64329 1 0 1.26606 19 1 19 -0.26606 -0.64329 1.26606 -0.64329 -0.26606 19 1 0 1.26588 19 1 19 -0.26588 -0.64329 1.26588 -0.64329 -0.26588 19 2 0 2.52552 19 2 19 1.22413 -0.64329 2.52552 -0.64329 -0.52552 19 -0.52552 -0.64329</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st25-map0-array" count="53" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork-vertices" name="geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63866st25-positions" />
+        </vertices>
+        <triangles material="material4" count="50">
+          <input semantic="VERTEX" source="#geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63866st25-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63866st25-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 0 4 0 0 0 1 0 1 0 0 0 4 0 4 5 0 5 6 0 6 3 0 3 6 0 6 7 0 7 3 0 3 7 0 7 4 0 4 3 0 3 8 1 8 6 1 9 9 1 10 10 1 11 8 1 8 11 1 3 10 1 11 7 1 12 8 1 8 6 1 9 8 1 8 7 1 12 12 1 5 13 1 13 11 1 3 13 1 13 10 1 11 11 1 3 14 2 14 13 2 15 15 2 16 16 2 3 10 2 17 14 2 14 13 2 15 14 2 14 10 2 17 17 2 5 18 2 18 16 2 3 18 2 18 19 2 19 16 2 3 19 2 19 10 2 17 16 2 3 20 3 20 21 3 21 22 3 22 23 3 3 24 3 23 20 3 20 24 3 23 25 3 24 20 3 20 21 3 21 20 3 20 25 3 24 26 3 5 27 3 25 23 3 3 27 3 25 28 3 26 23 3 3 28 3 26 24 3 23 23 3 3 29 4 27 30 4 28 31 4 29 32 4 3 33 4 30 29 4 27 30 4 28 29 4 27 33 4 30 34 4 31 35 4 32 32 4 3 35 4 32 36 4 33 32 4 3 36 4 33 33 4 30 32 4 3 37 5 34 38 5 35 39 5 36 25 5 37 37 5 34 40 5 3 25 5 37 41 5 38 37 5 34 38 5 35 37 5 34 41 5 38 42 5 5 21 5 39 40 5 3 21 5 39 25 5 37 40 5 3 43 6 40 44 6 41 45 6 42 33 6 43 43 6 40 46 6 3 33 6 43 47 6 44 43 6 40 44 6 41 43 6 40 47 6 44 48 6 5 49 6 45 46 6 3 49 6 45 33 6 43 46 6 3 50 7 46 18 7 47 51 7 48 52 7 3 53 7 49 50 7 46 53 7 49 19 7 50 50 7 46 18 7 47 50 7 46 19 7 50 54 7 5 44 7 51 52 7 3 44 7 51 47 7 52 52 7 3 47 7 52 53 7 49 52 7 3</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork" id="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork">
+      <mesh name="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork-mesh" id="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork-mesh">
+        <source id="mesht10gpc63866st26-positions" name="mesht10gpc63866st26-positions">
+          <float_array id="mesht10gpc63866st26-positions-array" count="60">204.6134 -204.399 12.22625 196.3448 -210.1781 12.22625 185.8249 -194.2473 12.22625 191.9488 -218.3121 12.22625 171.5275 -220.7085 12.22625 202.785 -207.7831 12.22625 200.3267 -212.3328 12.22625 195.9335 -220.4637 12.22625 194.4039 -223.2946 12.22625 190.3161 -230.8602 12.22625 191.9488 -218.3121 84.78943 171.5275 -220.7085 84.78943 190.3161 -230.8602 84.78943 185.8249 -194.2473 84.78943 194.4039 -223.2946 84.78943 195.9335 -220.4637 84.78943 196.3448 -210.1781 84.78943 202.785 -207.7831 84.78943 200.3267 -212.3328 84.78943 204.6134 -204.399 84.78943</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st26-positions-array" count="20" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st26-normals" name="mesht10gpc63866st26-normals">
+          <float_array id="mesht10gpc63866st26-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st26-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63866st26-map0" name="mesht10gpc63866st26-map0">
+          <float_array id="mesht10gpc63866st26-map0-array" count="20">0.30688 0.40757 0.32003 0.39077 0.29438 0.36994 0.33622 0.38171 0.34708 0.3405 0.31362 0.4038 0.32268 0.39874 0.33887 0.38969 0.34451 0.38654 0.35958 0.37813</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63866st26-map0-array" count="10" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork-vertices" name="geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63866st26-positions" />
+        </vertices>
+        <triangles material="material2" count="16">
+          <input semantic="VERTEX" source="#geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63866st26-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63866st26-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 1 0 1 3 0 3 2 0 2 3 0 3 4 0 4 2 0 2 1 0 1 0 0 0 5 0 5 6 0 6 1 0 1 5 0 5 7 0 7 8 0 8 3 0 3 8 0 8 9 0 9 3 0 3 3 0 3 9 0 9 4 0 4 10 1 3 11 1 4 12 1 9 13 1 2 11 1 4 10 1 3 10 1 3 12 1 9 14 1 8 15 1 7 10 1 3 14 1 8 16 1 1 13 1 2 10 1 3 17 1 5 16 1 1 18 1 6 19 1 0 16 1 1 17 1 5 19 1 0 13 1 2 16 1 1</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect5t10gpc63826st" name="effect5t10gpc63826st">
+      <profile_COMMON>
+        <newparam sid="effect5-image13-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image13t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image13t10gpc63826st">
+          <sampler2D>
+            <source>effect5-image13-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect5-image14-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image14t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image14t10gpc63826st">
+          <sampler2D>
+            <source>effect5-image14-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect5-image15-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image15t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect5-image15t10gpc63826st">
+          <sampler2D>
+            <source>effect5-image15-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect5-image13t10gpc63826st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect5-image14t10gpc63826st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect5-image15t10gpc63826st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect6t10gpc63826st" name="effect6t10gpc63826st">
+      <profile_COMMON>
+        <newparam sid="effect6-image16-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image16t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image16t10gpc63826st">
+          <sampler2D>
+            <source>effect6-image16-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect6-image17-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image17t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image17t10gpc63826st">
+          <sampler2D>
+            <source>effect6-image17-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect6-image18-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image18t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect6-image18t10gpc63826st">
+          <sampler2D>
+            <source>effect6-image18-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect6-image16t10gpc63826st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect6-image17t10gpc63826st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect6-image18t10gpc63826st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63866st" name="effect2t10gpc63866st">
+      <profile_COMMON>
+        <newparam sid="effect2-image6-surfacet10gpc63866st">
+          <surface type="2D">
+            <init_from>image6t10gpc63866st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63866st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63866st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image6t10gpc63866st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material5t10gpc63826st" name="material5t10gpc63826st">
+      <instance_effect url="#effect5t10gpc63826st" />
+    </material>
+    <material id="material6t10gpc63826st" name="material6t10gpc63826st">
+      <instance_effect url="#effect6t10gpc63826st" />
+    </material>
+    <material id="material2t10gpc63866st" name="material2t10gpc63866st">
+      <instance_effect url="#effect2t10gpc63866st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodeHQ4aAfOj" name="geopipeinodeHQ4aAfOj">
+        <translate>1000.652644 -724.387743 0.000000</translate><instance_geometry url="#geometryt10gpc63866st24_TheBenjaminRoyalSonestaNewYork">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material3" target="#material5t10gpc63826st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63866st25_TheBenjaminRoyalSonestaNewYork">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material4" target="#material6t10gpc63826st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63866st26_TheBenjaminRoyalSonestaNewYork">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63866st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="geopipe:identifier">3nNI2+aawhKJtAJh90hMcA==</param><param type="string" name="max_elevation">84.789436</param><param type="string" name="addr:housenumber">125</param><param type="string" name="official_name">The Benjamin Hotel</param><param type="string" name="nycdoitt:bin">1036452</param><param type="string" name="tourism">hotel</param><param type="string" name="name">The Benjamin Royal Sonesta New York</param><param type="string" name="min_height">0.000000</param><param type="string" name="geopipe:window_type">DoubleHung</param><param type="string" name="min_elevation">12.226254</param><param type="string" name="building:material">marble</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="roof:shape">flat</param><param type="string" name="geopipe:floor_thickness">0.342278</param><param type="string" name="stars">4.5</param><param type="string" name="roof:height">0.000000</param><param type="string" name="smoking">no</param><param type="string" name="addr:street">East 50th Street</param><param type="string" name="building">yes</param><param type="string" name="addr:state">NY</param><param type="string" name="phone">+1 212-715-2500</param><param type="string" name="fax">+1 212-715-2525</param><param type="string" name="geopipe:window_props" /><param type="string" name="air_conditioning">yes</param><param type="string" name="roof:material">metal</param><param type="string" name="height">72.563179</param><param type="string" name="addr:city">New York</param><param type="string" name="level_height">3.628159</param><param type="string" name="brand">Sonesta Hotels And Resorts</param><param type="string" name="rooms">209</param><param type="string" name="wheelchair">yes</param><param type="string" name="building:color">0x51bf2fff</param><param type="string" name="ground_elevation">14.602611</param><param type="string" name="website">https://www.sonesta.com/royal-sonesta/ny/new-york/benjamin-royal-sonesta-new-york</param><param type="string" name="internet_access">wlan</param><param type="string" name="start_date">1927</param><param type="string" name="addr:postcode">10022</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>

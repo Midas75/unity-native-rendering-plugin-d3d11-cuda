@@ -1,0 +1,365 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1"><asset>
+	<contributor>
+	  <author>Geopipe</author>
+	  <authoring_tool>geopipe</authoring_tool>
+	  <source_data />
+	  <comments />
+	</contributor>
+	<created>2023-06-23T18:34:52</created>
+	<modified>2023-06-23T18:34:52</modified>
+	<unit name="meters" meter="1" />
+	<up_axis>Z_UP</up_axis>
+  </asset><library_images><image id="image0t10gpc63826st" name="image0t10gpc63826st">
+      <init_from>images/windowedFacade_concrete_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image1t10gpc63826st" name="image1t10gpc63826st">
+      <init_from>images/windowedFacade_concrete_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image2t10gpc63826st" name="image2t10gpc63826st">
+      <init_from>images/windowedFacade_concrete_2_normal_1024.png</init_from>
+    </image>
+    <image id="image4t10gpc63826st" name="image4t10gpc63826st">
+      <init_from>images/facade_concrete_2_diffuse_1024.png</init_from>
+    </image>
+    <image id="image5t10gpc63826st" name="image5t10gpc63826st">
+      <init_from>images/facade_concrete_2_specularGlossiness_1024.png</init_from>
+    </image>
+    <image id="image6t10gpc63826st" name="image6t10gpc63826st">
+      <init_from>images/facade_concrete_2_normal_1024.png</init_from>
+    </image>
+    <image id="image3t10gpc63826st" name="image3t10gpc63826st">
+      <init_from>images/ortho10gpc63826.jpg</init_from>
+    </image>
+    </library_images><library_geometries><geometry name="geometryt10gpc63826st65_FranklinNationalBankBuilding" id="geometryt10gpc63826st65_FranklinNationalBankBuilding">
+      <mesh name="geometryt10gpc63826st65_FranklinNationalBankBuilding-mesh" id="geometryt10gpc63826st65_FranklinNationalBankBuilding-mesh">
+        <source id="mesht10gpc63826st65-positions" name="mesht10gpc63826st65-positions">
+          <float_array id="mesht10gpc63826st65-positions-array" count="195">233.0855 -228.1397 138.5047 233.1206 -228.0738 15.07205 230.1035 -233.7498 15.07205 233.1206 -228.0738 138.5047 230.1035 -233.7498 138.5047 236.8368 -221.0824 138.5047 236.8368 -221.0824 15.07205 233.8197 -226.7584 15.07205 233.8197 -226.7584 138.5047 239.0444 -216.929 15.07205 237.5359 -219.7671 15.07205 237.5359 -219.7671 138.5047 239.0444 -216.929 138.5047 242.7606 -209.9377 15.07205 239.7436 -215.6137 15.07205 239.7436 -215.6137 138.5047 242.7606 -209.9377 138.5047 246.4768 -202.9463 138.5047 246.4768 -202.9463 15.07205 243.4598 -208.6223 15.07205 243.4598 -208.6223 138.5047 230.2462 -234.2164 138.5047 230.2462 -234.2164 15.07205 235.9223 -237.2334 15.07205 235.9223 -237.2334 138.5047 237.5486 -238.0979 138.5047 237.5486 -238.0979 15.07205 240.3866 -239.6064 15.07205 240.3866 -239.6064 138.5047 242.013 -240.4708 15.07205 247.689 -243.4879 15.07205 247.689 -243.4879 138.5047 242.013 -240.4708 138.5047 252.6194 -205.8206 15.07205 246.9434 -202.8036 15.07205 246.9434 -202.8036 138.5047 252.6194 -205.8206 138.5047 257.0838 -208.1936 138.5047 257.0838 -208.1936 15.07205 254.2457 -206.6851 15.07205 254.2457 -206.6851 138.5047 264.3861 -212.0751 15.07205 258.7101 -209.0581 15.07205 258.7101 -209.0581 138.5047 264.3861 -212.0751 138.5047 248.1556 -243.3452 15.07205 251.1726 -237.6691 15.07205 251.1726 -237.6691 138.5047 248.1556 -243.3452 138.5047 251.8717 -236.3538 138.5047 251.8717 -236.3538 15.07205 254.8888 -230.6778 15.07205 254.8888 -230.6778 138.5047 255.5879 -229.3624 15.07205 257.0965 -226.5244 15.07205 257.0965 -226.5244 138.5047 255.5879 -229.3624 138.5047 257.7956 -225.2091 138.5047 257.7956 -225.2091 15.07205 260.8126 -219.533 15.07205 260.8126 -219.533 138.5047 261.5118 -218.2177 138.5047 261.5118 -218.2177 15.07205 264.5288 -212.5417 15.07205 264.5288 -212.5417 138.5047</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st65-positions-array" count="65" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st65-normals" name="mesht10gpc63826st65-normals">
+          <float_array id="mesht10gpc63826st65-normals-array" count="12">-0.8830097 0.4693548 0 -0.4693548 -0.8830097 0 0.4693548 0.8830097 0 0.8830097 -0.4693548 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st65-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st65-map0" name="mesht10gpc63826st65-map0">
+          <float_array id="mesht10gpc63826st65-map0-array" count="60">0.02322 33 0 0 2 0 0 33 2 33 2 0 2 33 1 0 1 33 2 0 2 33 2 0 2 33 2 0 2 33 1 0 1 33 2 0 2 33 2 0 2 33 1 0 2 0 2 0 2 0 1 0 1 33 2 0 2 0 2 33</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st65-map0-array" count="30" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st65-map1" name="mesht10gpc63826st65-map1">
+          <float_array id="mesht10gpc63826st65-map1-array" count="32">1.88976 1.91765 1.25984 1.13333 1.6378 1.82745 1.73228 1.96078 1.74016 1.66275 1.54331 1.1451 1.41732 1.6902 1.40945 1.56471 1.20472 1.79608 1.13386 1.93725 1.69291 1.85098 1.3937 1.0549 1.34646 1.19216 1.48031 1.69804 1.07874 1.36863 1.74016 1.00392</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st65-map1-array" count="16" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63826st65_FranklinNationalBankBuilding-vertices" name="geometryt10gpc63826st65_FranklinNationalBankBuilding-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63826st65-positions" />
+        </vertices>
+        <triangles material="material0" count="33">
+          <input semantic="VERTEX" source="#geometryt10gpc63826st65_FranklinNationalBankBuilding-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63826st65-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63826st65-map0" offset="2" set="0" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63826st65-map1" offset="3" set="1" />
+          <p>0 0 0 0 1 0 1 0 2 0 2 0 3 0 3 0 1 0 1 0 0 0 0 0 0 0 0 0 2 0 2 0 4 0 4 0 5 0 3 1 6 0 1 1 7 0 5 1 5 0 3 1 7 0 5 1 8 0 6 1 9 0 1 2 10 0 7 2 11 0 8 2 12 0 3 2 9 0 1 2 11 0 8 2 13 0 1 3 14 0 9 3 15 0 10 3 16 0 3 3 13 0 1 3 15 0 10 3 17 0 3 4 18 0 1 4 19 0 11 4 17 0 3 4 19 0 11 4 20 0 12 4 21 1 3 5 22 1 1 5 23 1 13 5 21 1 3 5 23 1 13 5 24 1 14 5 25 1 3 6 26 1 1 6 27 1 15 6 25 1 3 6 27 1 15 6 28 1 16 6 29 1 1 7 30 1 17 7 31 1 18 7 32 1 3 7 29 1 1 7 31 1 18 7 33 2 1 8 34 2 19 8 35 2 20 8 36 2 3 8 33 2 1 8 35 2 20 8 37 2 3 9 38 2 1 9 39 2 21 9 37 2 3 9 39 2 21 9 40 2 16 9 41 2 1 10 42 2 22 10 43 2 10 10 44 2 3 10 41 2 1 10 43 2 10 10 45 3 1 11 46 3 23 11 47 3 14 11 48 3 3 11 45 3 1 11 47 3 14 11 49 3 3 12 50 3 1 12 51 3 24 12 49 3 3 12 51 3 24 12 52 3 6 12 53 3 1 13 54 3 25 13 55 3 26 13 56 3 3 13 53 3 1 13 55 3 26 13 57 3 3 14 58 3 1 14 59 3 27 14 57 3 3 14 59 3 27 14 60 3 18 14 61 3 3 15 62 3 1 15 63 3 28 15 61 3 3 15 63 3 28 15 64 3 29 15</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63826st66_FranklinNationalBankBuilding" id="geometryt10gpc63826st66_FranklinNationalBankBuilding">
+      <mesh name="geometryt10gpc63826st66_FranklinNationalBankBuilding-mesh" id="geometryt10gpc63826st66_FranklinNationalBankBuilding-mesh">
+        <source id="mesht10gpc63826st66-positions" name="mesht10gpc63826st66-positions">
+          <float_array id="mesht10gpc63826st66-positions-array" count="237">230.1035 -233.7498 15.07205 229.9416 -234.0544 138.5047 230.1035 -233.7498 138.5047 233.1206 -228.0738 15.07205 233.0855 -228.1397 14.20469 229.9416 -234.0544 14.20469 233.1206 -228.0738 138.5047 233.8197 -226.7584 138.5047 233.8197 -226.7584 15.07205 236.8368 -221.0824 15.07205 236.8368 -221.0824 138.5047 237.5359 -219.7671 138.5047 237.5359 -219.7671 15.07205 239.0444 -216.929 15.07205 239.0444 -216.929 138.5047 239.7436 -215.6137 138.5047 239.7436 -215.6137 15.07205 242.7606 -209.9377 15.07205 246.6387 -202.6417 14.20469 242.7606 -209.9377 138.5047 243.4598 -208.6223 138.5047 243.4598 -208.6223 15.07205 246.4768 -202.9463 15.07205 246.4768 -202.9463 138.5047 246.6387 -202.6417 138.5047 247.689 -243.4879 15.07205 247.9936 -243.6498 138.5047 247.689 -243.4879 138.5047 242.013 -240.4708 15.07205 247.9936 -243.6498 14.20469 242.013 -240.4708 138.5047 240.3866 -239.6064 138.5047 240.3866 -239.6064 15.07205 237.5486 -238.0979 15.07205 230.2189 -234.2018 14.20469 237.5486 -238.0979 138.5047 235.9223 -237.2334 138.5047 235.9223 -237.2334 15.07205 230.2462 -234.2164 15.07205 230.2462 -234.2164 138.5047 230.2189 -234.2018 138.5047 246.9434 -202.8036 15.07205 246.6387 -202.6417 138.5047 246.9434 -202.8036 138.5047 252.6194 -205.8206 15.07205 246.6387 -202.6417 14.20469 252.6194 -205.8206 138.5047 254.2457 -206.6851 138.5047 254.2457 -206.6851 15.07205 257.0838 -208.1936 15.07205 257.0838 -208.1936 138.5047 258.7101 -209.0581 138.5047 258.7101 -209.0581 15.07205 264.6908 -212.237 14.20469 264.3861 -212.0751 15.07205 264.3861 -212.0751 138.5047 264.6908 -212.237 138.5047 264.5288 -212.5417 15.07205 264.5288 -212.5417 138.5047 261.5118 -218.2177 15.07205 261.5118 -218.2177 138.5047 260.8126 -219.533 138.5047 260.8126 -219.533 15.07205 257.7956 -225.2091 15.07205 257.7956 -225.2091 138.5047 257.0965 -226.5244 138.5047 257.0965 -226.5244 15.07205 255.5879 -229.3624 15.07205 247.9936 -243.6498 14.20469 255.5879 -229.3624 138.5047 254.8888 -230.6778 138.5047 254.8888 -230.6778 15.07205 251.8717 -236.3538 15.07205 251.8717 -236.3538 138.5047 251.1726 -237.6691 138.5047 251.1726 -237.6691 15.07205 248.1556 -243.3452 15.07205 248.1556 -243.3452 138.5047 247.9936 -243.6498 138.5047</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st66-positions-array" count="79" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st66-normals" name="mesht10gpc63826st66-normals">
+          <float_array id="mesht10gpc63826st66-normals-array" count="12">-0.8830097 0.4693548 0 -0.4693548 -0.8830097 0 0.4693548 0.8830097 0 0.8830097 -0.4693548 0</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st66-normals-array" count="4" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st66-map0" name="mesht10gpc63826st66-map0">
+          <float_array id="mesht10gpc63826st66-map0-array" count="152">2 0 2.10734 33 2 33 0 0 0.02322 -0.23189 2.10734 -0.23189 0 33 -0.46347 33 -0.46347 0 -2.46347 0 -2.46347 33 -2.92694 33 -2.92694 0 -3.92694 0 -3.92694 33 -4.39042 33 -4.39042 0 -6.39042 0 -8.961231 -0.23189 -6.39042 33 -6.85389 33 -6.85389 0 -8.853891 0 -8.853891 33 -8.961231 33 2 0 2.10734 33 2 33 2.10734 -0.23189 -0.57306 33 -0.57306 0 -1.57306 0 -4.15576 -0.23189 -1.57306 33 -2.14611 33 -2.14611 0 -4.14611 0 -4.14611 33 -4.15576 33 -4.25345 33 -4.25345 -0.23189 2 0 2.10734 33 2 33 2.10734 -0.23189 -0.57306 33 -0.57306 0 -1.57306 0 -1.57306 33 -2.14611 33 -2.14611 0 -4.25345 -0.23189 -4.14611 0 -4.14611 33 -4.25345 33 2 0 2.10734 33 2 33 2.10734 -0.23189 -0.46347 33 -0.46347 0 -2.46347 0 -2.46347 33 -2.92694 33 -2.92694 0 -3.92694 0 -8.961231 -0.23189 -3.92694 33 -4.39042 33 -4.39042 0 -6.39042 0 -6.85389 33 -6.85389 0 -8.853891 0 -8.853891 33 -8.961231 33</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st66-map0-array" count="76" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63826st66_FranklinNationalBankBuilding-vertices" name="geometryt10gpc63826st66_FranklinNationalBankBuilding-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63826st66-positions" />
+        </vertices>
+        <triangles material="material2" count="75">
+          <input semantic="VERTEX" source="#geometryt10gpc63826st66_FranklinNationalBankBuilding-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63826st66-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63826st66-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 4 0 4 0 0 0 4 0 4 5 0 5 0 0 0 1 0 1 0 0 0 5 0 5 6 0 6 7 0 7 3 0 3 7 0 7 8 0 8 3 0 3 8 0 8 4 0 4 3 0 3 8 0 8 9 0 9 4 0 4 10 0 10 11 0 11 9 0 9 11 0 11 12 0 12 9 0 9 9 0 9 12 0 12 4 0 4 12 0 12 13 0 13 4 0 4 14 0 14 15 0 15 13 0 13 15 0 15 16 0 16 13 0 13 13 0 13 16 0 16 4 0 4 17 0 17 18 0 18 16 0 16 16 0 16 18 0 18 4 0 4 19 0 19 20 0 20 17 0 17 20 0 20 21 0 21 17 0 17 21 0 21 18 0 18 17 0 17 22 0 22 18 0 18 21 0 21 23 0 23 24 0 24 22 0 22 24 0 24 18 0 18 22 0 22 25 1 25 26 1 26 27 1 27 28 1 3 29 1 28 25 1 25 26 1 26 25 1 25 29 1 28 30 1 6 31 1 29 28 1 3 31 1 29 32 1 30 28 1 3 28 1 3 32 1 30 29 1 28 32 1 30 33 1 31 34 1 32 32 1 30 34 1 32 29 1 28 35 1 33 36 1 34 33 1 31 36 1 34 37 1 35 33 1 31 33 1 31 37 1 35 34 1 32 37 1 35 38 1 36 34 1 32 39 1 37 40 1 38 38 1 36 40 1 38 1 1 39 38 1 36 1 1 39 5 1 40 38 1 36 38 1 36 5 1 40 34 1 32 41 2 41 42 2 42 43 2 43 44 2 3 45 2 44 41 2 41 42 2 42 41 2 41 45 2 44 46 2 6 47 2 45 44 2 3 47 2 45 48 2 46 44 2 3 48 2 46 45 2 44 44 2 3 48 2 46 49 2 47 45 2 44 50 2 48 51 2 49 49 2 47 51 2 49 52 2 50 49 2 47 52 2 50 53 2 51 49 2 47 49 2 47 53 2 51 45 2 44 54 2 52 53 2 51 52 2 50 55 2 53 56 2 54 54 2 52 56 2 54 53 2 51 54 2 52 57 3 55 56 3 56 58 3 57 59 3 3 53 3 58 57 3 55 56 3 56 57 3 55 53 3 58 60 3 6 61 3 59 59 3 3 61 3 59 62 3 60 59 3 3 62 3 60 53 3 58 59 3 3 62 3 60 63 3 61 53 3 58 64 3 62 65 3 63 63 3 61 65 3 63 66 3 64 63 3 61 63 3 61 66 3 64 53 3 58 67 3 65 68 3 66 66 3 64 66 3 64 68 3 66 53 3 58 69 3 67 70 3 68 67 3 65 70 3 68 71 3 69 67 3 65 71 3 69 68 3 66 67 3 65 72 3 70 68 3 66 71 3 69 73 3 19 74 3 71 72 3 70 74 3 71 75 3 72 72 3 70 75 3 72 68 3 66 72 3 70 76 3 73 68 3 66 75 3 72 77 3 74 78 3 75 76 3 73 78 3 75 68 3 66 76 3 73</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry name="geometryt10gpc63826st67_FranklinNationalBankBuilding" id="geometryt10gpc63826st67_FranklinNationalBankBuilding">
+      <mesh name="geometryt10gpc63826st67_FranklinNationalBankBuilding-mesh" id="geometryt10gpc63826st67_FranklinNationalBankBuilding-mesh">
+        <source id="mesht10gpc63826st67-positions" name="mesht10gpc63826st67-positions">
+          <float_array id="mesht10gpc63826st67-positions-array" count="36">233.0855 -228.1397 14.20469 246.6387 -202.6417 14.20469 264.6908 -212.237 14.20469 247.9936 -243.6498 14.20469 230.2189 -234.2018 14.20469 229.9416 -234.0544 14.20469 233.0855 -228.1397 138.5047 229.9416 -234.0544 138.5047 230.2189 -234.2018 138.5047 247.9936 -243.6498 138.5047 264.6908 -212.237 138.5047 246.6387 -202.6417 138.5047</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st67-positions-array" count="12" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st67-normals" name="mesht10gpc63826st67-normals">
+          <float_array id="mesht10gpc63826st67-normals-array" count="6">0 0 -1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st67-normals-array" count="2" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="mesht10gpc63826st67-map0" name="mesht10gpc63826st67-map0">
+          <float_array id="mesht10gpc63826st67-map0-array" count="12">0.34105 0.46442 0.29034 0.49234 0.30206 0.5285 0.36453 0.4941 0.35299 0.4585 0.35281 0.45795</float_array>
+          <technique_common>
+            <accessor source="#mesht10gpc63826st67-map0-array" count="6" stride="2">
+              <param name="U" type="float" />
+              <param name="V" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="geometryt10gpc63826st67_FranklinNationalBankBuilding-vertices" name="geometryt10gpc63826st67_FranklinNationalBankBuilding-vertices">
+          <input semantic="POSITION" source="#mesht10gpc63826st67-positions" />
+        </vertices>
+        <triangles material="material1" count="8">
+          <input semantic="VERTEX" source="#geometryt10gpc63826st67_FranklinNationalBankBuilding-vertices" offset="0" />
+          <input semantic="NORMAL" source="#mesht10gpc63826st67-normals" offset="1" />
+          <input semantic="TEXCOORD" source="#mesht10gpc63826st67-map0" offset="2" set="0" />
+          <p>0 0 0 1 0 1 2 0 2 3 0 3 0 0 0 2 0 2 4 0 4 0 0 0 3 0 3 5 0 5 0 0 0 4 0 4 6 1 0 7 1 5 8 1 4 9 1 3 6 1 0 8 1 4 10 1 2 6 1 0 9 1 3 11 1 1 6 1 0 10 1 2</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    </library_geometries><library_effects><effect id="effect0t10gpc63826st" name="effect0t10gpc63826st">
+      <profile_COMMON>
+        <newparam sid="effect0-image0-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image0t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image0t10gpc63826st">
+          <sampler2D>
+            <source>effect0-image0-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect0-image1-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image1t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image1t10gpc63826st">
+          <sampler2D>
+            <source>effect0-image1-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect0-image2-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image2t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect0-image2t10gpc63826st">
+          <sampler2D>
+            <source>effect0-image2-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect0-image0t10gpc63826st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect0-image1t10gpc63826st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect0-image2t10gpc63826st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect2t10gpc63826st" name="effect2t10gpc63826st">
+      <profile_COMMON>
+        <newparam sid="effect2-image4-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image4t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image4t10gpc63826st">
+          <sampler2D>
+            <source>effect2-image4-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect2-image5-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image5t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image5t10gpc63826st">
+          <sampler2D>
+            <source>effect2-image5-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <newparam sid="effect2-image6-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image6t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect2-image6t10gpc63826st">
+          <sampler2D>
+            <source>effect2-image6-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect2-image4t10gpc63826st" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <texture texture="effect2-image5t10gpc63826st" texcoord="UVSET0" />
+            </specular>
+            <shininess>
+              <float>10</float>
+            </shininess>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <bump>
+                <texture texture="effect2-image6t10gpc63826st" texcoord="UVSET0" />
+              </bump>
+            </technique>
+          </extra>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    <effect id="effect1t10gpc63826st" name="effect1t10gpc63826st">
+      <profile_COMMON>
+        <newparam sid="effect1-image3-surfacet10gpc63826st">
+          <surface type="2D">
+            <init_from>image3t10gpc63826st</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="effect1-image3t10gpc63826st">
+          <sampler2D>
+            <source>effect1-image3-surfacet10gpc63826st</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="effect1-image3t10gpc63826st" texcoord="UVSET0" />
+            </diffuse>
+          </lambert>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided sid="double_sided">1</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+    </library_effects><library_materials><material id="material0t10gpc63826st" name="material0t10gpc63826st">
+      <instance_effect url="#effect0t10gpc63826st" />
+    </material>
+    <material id="material2t10gpc63826st" name="material2t10gpc63826st">
+      <instance_effect url="#effect2t10gpc63826st" />
+    </material>
+    <material id="material1t10gpc63826st" name="material1t10gpc63826st">
+      <instance_effect url="#effect1t10gpc63826st" />
+    </material>
+    </library_materials><library_nodes /><library_visual_scenes><visual_scene id="geopipe_scene"><node type="NODE" id="geopipeinodesXgxsLnG" name="geopipeinodesXgxsLnG">
+        <translate>994.215150 -173.739205 0.000000</translate><instance_geometry url="#geometryt10gpc63826st65_FranklinNationalBankBuilding">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material0" target="#material0t10gpc63826st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63826st66_FranklinNationalBankBuilding">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material2" target="#material2t10gpc63826st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <instance_geometry url="#geometryt10gpc63826st67_FranklinNationalBankBuilding">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="material1" target="#material1t10gpc63826st">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="geopipe_Metadata">
+            <param type="string" name="geopipe:identifier">s+veagHBhgp2MBsqtLoZcg==</param><param type="string" name="nycdoitt:bin">1035780</param><param type="string" name="name">Franklin National Bank Building</param><param type="string" name="addr:street">Park Avenue</param><param type="string" name="start_date">1972</param><param type="string" name="roof:height">0.000000</param><param type="string" name="addr:city">New York</param><param type="string" name="building">office</param><param type="string" name="min_elevation">14.204685</param><param type="string" name="addr:state">NY</param><param type="string" name="ground_elevation">15.072049</param><param type="string" name="geopipe:floor_thickness">0.354370</param><param type="string" name="roof:color">0x000000ff</param><param type="string" name="building:material">concrete</param><param type="string" name="level_height">3.766667</param><param type="string" name="height">124.300003</param><param type="string" name="roof:material">concrete</param><param type="string" name="geopipe:window_props" /><param type="string" name="building:color">0x343235ff</param><param type="string" name="geopipe:window_type">DoubleHung</param><param type="string" name="max_elevation">138.949448</param><param type="string" name="roof:shape">flat</param><param type="string" name="addr:housenumber">450</param><param type="string" name="wikidata">Q17423040</param><param type="string" name="min_height">0.000000</param>
+          </technique>
+        </extra>
+      </node>
+      </visual_scene></library_visual_scenes><scene><instance_visual_scene url="#geopipe_scene" /></scene><extra /></COLLADA>
