@@ -4,6 +4,7 @@ using System.Collections;
 using System.Runtime.InteropServices;
 using UnityEngine.Rendering;
 using System.IO;
+using UnityEngine.XR;
 
 public class UseRenderingPlugin : MonoBehaviour
 {
@@ -30,6 +31,7 @@ public class UseRenderingPlugin : MonoBehaviour
     public RenderTexture camRenderTex;
     public Color color1 = Color.red;
     public Color color2 = Color.blue;
+    public bool encodeWithCUDA = true;
     IEnumerator Start()
     {
 
@@ -73,7 +75,17 @@ public class UseRenderingPlugin : MonoBehaviour
         {
             // Wait until all frame rendering is done
             yield return new WaitForEndOfFrame();
-            if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Direct3D11)
+            if (!encodeWithCUDA)
+            {
+                Texture2D texture2D = new(camRenderTex.width, camRenderTex.height);
+                texture2D.ReadPixels(new Rect(0, 0, camRenderTex.width, camRenderTex.height), 0, 0);
+                texture2D.Apply();
+                byte[] bytes = texture2D.EncodeToJPG();
+                //Debug.Log(bytes.Length);
+                //File.WriteAllBytes("D:\\unity_texture2d.jpg", bytes);
+                Destroy(texture2D);
+            }
+            else if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Direct3D11)
             {
                 if (++captureCounter >= captureInterval)
                 {
@@ -84,17 +96,9 @@ public class UseRenderingPlugin : MonoBehaviour
                     Marshal.Copy(dataPtr, data, 0, (int)length);
                     // use code below to save a jpeg pic to disk
 
-
-                    //using (FileStream fileStream = new FileStream("D:\\unity.jpeg", FileMode.Create))
-                    //{
-                    //    using (BinaryWriter writer = new BinaryWriter(fileStream))
-                    //    {
-                    //        writer.Write(data);
-                    //    }
-                    //}
+                    File.WriteAllBytes("D:\\unity_texture2d.jpg", data);
                     captureCounter %= captureInterval;
                 }
-
             }
         }
     }
