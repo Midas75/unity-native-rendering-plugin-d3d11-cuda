@@ -93,7 +93,7 @@ extern "C" UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API ClearCache()
 4. GPUJPEG：`gpujpeg_encoder_encode`
 5. Unity：`IntPtr`
 
-除去最后的流程，所有的行为全部在GPU上完成，从而最大程度地减少GPU-CPU间数据传输的消耗（通常上限为1GBps）。
+除去最后的流程，所有的行为全部在GPU上完成，从而最大程度地减少GPU-CPU间数据传输的消耗（通常上限为32GBps,PCIE 4.0）。
 
 其具体流程较复杂，可见[.\PluginSource\projects\source\RenderAPI_D3D11.cpp]()
 

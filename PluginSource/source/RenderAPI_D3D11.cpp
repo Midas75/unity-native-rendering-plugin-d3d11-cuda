@@ -69,7 +69,7 @@ void RenderAPI_D3D11::setD3DTexture2D(ID3D11DeviceContext* ctx, ID3D11Texture2D*
 		newDesc.SampleDesc.Count);
 	if (d3dtex_argb32 == nullptr) {
 		currentDesc = newDesc;
-		currentDesc.Format = DXGI_FORMAT_R8G8B8A8_UINT;
+		currentDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
 		m_Device->CreateTexture2D(&currentDesc, 0, &d3dtex_argb32);
 		registerToCurrentTexture();
 	}
@@ -79,7 +79,7 @@ void RenderAPI_D3D11::setD3DTexture2D(ID3D11DeviceContext* ctx, ID3D11Texture2D*
 			currentDesc.Width != newDesc.Width
 			|| currentDesc.Height != newDesc.Height) {
 			currentDesc = newDesc;
-			currentDesc.Format = DXGI_FORMAT_R8G8B8A8_SINT;
+			currentDesc.Format = DXGI_FORMAT_R8G8B8A8_UNORM;
 			d3dtex_argb32->Release();// Release is a ref count,so release this and then cudaUnregister is allowed
 			HRESULT hr = m_Device->CreateTexture2D(&currentDesc, 0, &d3dtex_argb32);
 			registerToCurrentTexture();
